@@ -1,0 +1,1299 @@
+22:04:35,082 TRACE [K] ContextManager starting
+22:04:35,089 DEBUG [G] Property change listener is enabled.
+22:04:35,116 DEBUG [E] Starting Search for CPs
+22:04:35,122 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+22:04:35,122 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+22:04:35,123 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+22:04:35,123 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+22:04:35,124 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+22:04:35,124 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+22:04:37,801 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+22:04:37,801 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+22:04:37,801 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+22:04:37,801 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+22:04:37,801 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+22:04:37,801 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+22:04:37,824 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+22:04:37,824 INFO  [J] # of BB VMs Found: 0
+22:04:37,824 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+22:19:47,897 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+22:19:47,897 DEBUG [G] Property change listener is disabled.
+22:20:00,515 TRACE [K] ContextManager starting
+22:20:00,520 DEBUG [G] Property change listener is enabled.
+22:20:00,547 DEBUG [E] Starting Search for CPs
+22:20:00,553 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+22:20:00,554 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+22:20:00,554 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+22:20:00,555 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+22:20:00,555 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+22:20:00,555 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+22:20:00,596 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+22:20:00,596 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+22:20:00,596 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+22:20:00,596 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+22:20:00,596 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+22:20:00,596 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+22:20:00,697 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+22:20:00,697 INFO  [J] # of BB VMs Found: 0
+22:20:00,697 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+15:15:08,217 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+15:15:08,217 DEBUG [G] Property change listener is disabled.
+15:15:31,132 TRACE [K] ContextManager starting
+15:15:31,179 DEBUG [G] Property change listener is enabled.
+15:15:31,321 DEBUG [E] Starting Search for CPs
+15:15:31,412 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+15:15:31,460 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+15:15:31,496 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+15:15:31,530 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+15:15:31,556 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+15:15:31,587 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+15:15:31,682 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+15:15:31,682 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+15:15:31,682 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+15:15:31,682 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+15:15:31,682 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+15:15:31,682 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+15:15:31,714 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+15:15:31,714 INFO  [J] # of BB VMs Found: 0
+15:15:31,714 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+10:36:51,905 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+10:36:51,905 DEBUG [G] Property change listener is disabled.
+18:53:06,785 TRACE [K] ContextManager starting
+18:53:06,858 DEBUG [G] Property change listener is enabled.
+18:53:07,013 DEBUG [E] Starting Search for CPs
+18:53:07,113 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+18:53:07,149 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+18:53:07,184 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+18:53:07,242 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+18:53:07,289 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+18:53:07,320 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+18:53:07,470 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+18:53:07,470 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+18:53:07,470 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+18:53:07,470 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+18:53:07,470 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+18:53:07,470 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+18:53:07,553 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+18:53:07,553 INFO  [J] # of BB VMs Found: 0
+18:53:07,553 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+15:58:56,417 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+15:58:56,418 DEBUG [G] Property change listener is disabled.
+16:05:20,157 TRACE [K] ContextManager starting
+16:05:20,247 DEBUG [G] Property change listener is enabled.
+16:05:20,389 DEBUG [E] Starting Search for CPs
+16:05:20,481 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+16:05:20,515 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+16:05:20,526 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+16:05:20,554 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+16:05:20,580 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+16:05:20,598 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+16:05:20,694 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+16:05:20,694 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+16:05:20,694 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+16:05:20,694 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+16:05:20,694 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+16:05:20,694 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+16:05:20,777 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+16:05:20,777 INFO  [J] # of BB VMs Found: 0
+16:05:20,777 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+12:01:46,163 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+12:01:46,164 DEBUG [G] Property change listener is disabled.
+12:02:14,269 TRACE [K] ContextManager starting
+12:02:14,304 DEBUG [G] Property change listener is enabled.
+12:02:14,422 DEBUG [E] Starting Search for CPs
+12:02:14,445 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+12:02:14,446 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+12:02:14,446 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+12:02:14,446 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+12:02:14,446 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+12:02:14,446 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+12:02:14,530 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+12:02:14,530 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+12:02:14,530 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+12:02:14,530 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+12:02:14,530 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+12:02:14,530 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+12:02:14,582 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+12:02:14,582 INFO  [J] # of BB VMs Found: 0
+12:02:14,583 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+12:23:45,580 TRACE [K] ContextManager starting
+12:23:45,623 DEBUG [G] Property change listener is enabled.
+12:23:45,752 DEBUG [E] Starting Search for CPs
+12:23:45,785 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+12:23:45,785 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+12:23:45,785 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+12:23:45,785 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+12:23:45,786 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+12:23:45,786 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+12:23:45,881 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+12:23:45,881 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+12:23:45,882 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+12:23:45,882 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+12:23:45,882 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+12:23:45,882 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+12:23:45,936 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+12:23:45,936 INFO  [J] # of BB VMs Found: 0
+12:23:45,936 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+12:25:50,008 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+12:25:50,009 DEBUG [G] Property change listener is disabled.
+12:26:01,586 TRACE [K] ContextManager starting
+12:26:01,594 DEBUG [G] Property change listener is enabled.
+12:26:01,621 DEBUG [E] Starting Search for CPs
+12:26:01,627 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+12:26:01,628 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+12:26:01,628 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+12:26:01,628 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+12:26:01,628 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+12:26:01,628 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+12:26:01,646 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+12:26:01,646 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+12:26:01,646 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+12:26:01,646 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+12:26:01,646 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+12:26:01,646 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+12:26:01,818 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+12:26:01,818 INFO  [J] # of BB VMs Found: 0
+12:26:01,818 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+11:33:41,671 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+11:33:41,671 DEBUG [G] Property change listener is disabled.
+11:34:12,465 TRACE [K] ContextManager starting
+11:34:12,655 DEBUG [G] Property change listener is enabled.
+11:34:13,642 DEBUG [E] Starting Search for CPs
+11:34:14,024 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+11:34:14,108 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+11:34:14,122 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+11:34:14,162 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+11:34:14,198 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+11:34:14,240 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+11:34:14,316 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+11:34:14,316 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+11:34:14,316 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+11:34:14,316 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+11:34:14,316 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+11:34:14,316 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+11:34:14,352 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+11:34:14,352 INFO  [J] # of BB VMs Found: 0
+11:34:14,353 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+17:14:12,630 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+17:14:12,630 DEBUG [G] Property change listener is disabled.
+17:14:42,852 TRACE [K] ContextManager starting
+17:14:42,896 DEBUG [G] Property change listener is enabled.
+17:14:43,038 DEBUG [E] Starting Search for CPs
+17:14:43,140 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+17:14:43,165 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+17:14:43,176 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+17:14:43,204 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+17:14:43,230 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+17:14:43,248 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+17:14:43,366 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+17:14:43,366 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+17:14:43,366 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+17:14:43,366 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+17:14:43,366 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+17:14:43,366 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+17:14:43,391 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+17:14:43,391 INFO  [J] # of BB VMs Found: 0
+17:14:43,391 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+18:48:42,875 TRACE [K] ContextManager starting
+18:48:42,881 DEBUG [G] Property change listener is enabled.
+18:48:43,020 DEBUG [E] Starting Search for CPs
+18:48:43,050 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+18:48:43,052 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+18:48:43,054 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+18:48:43,074 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+18:48:43,089 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+18:48:43,090 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+18:48:43,132 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+18:48:43,132 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+18:48:43,132 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+18:48:43,132 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+18:48:43,132 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+18:48:43,132 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+18:48:43,161 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+18:48:43,161 INFO  [J] # of BB VMs Found: 0
+18:48:43,161 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+20:14:32,920 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+20:14:32,921 DEBUG [G] Property change listener is disabled.
+20:14:53,909 TRACE [K] ContextManager starting
+20:14:53,916 DEBUG [G] Property change listener is enabled.
+20:16:20,181 TRACE [K] ContextManager starting
+20:16:20,190 DEBUG [G] Property change listener is enabled.
+20:16:20,398 DEBUG [E] Starting Search for CPs
+20:16:20,467 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+20:16:20,479 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+20:16:20,493 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+20:16:20,518 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+20:16:20,544 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+20:16:20,559 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+20:16:20,617 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+20:16:20,617 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+20:16:20,617 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+20:16:20,617 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+20:16:20,617 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+20:16:20,617 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+20:16:20,655 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+20:16:20,655 INFO  [J] # of BB VMs Found: 0
+20:16:20,655 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+22:43:31,788 TRACE [K] ContextManager starting
+22:43:31,794 DEBUG [G] Property change listener is enabled.
+22:43:31,820 DEBUG [E] Starting Search for CPs
+22:43:31,826 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+22:43:31,826 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+22:43:31,827 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+22:43:31,827 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+22:43:31,827 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+22:43:31,828 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+22:43:31,846 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+22:43:31,846 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+22:43:31,846 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+22:43:31,846 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+22:43:31,846 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+22:43:31,846 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+22:43:31,909 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+22:43:31,909 INFO  [J] # of BB VMs Found: 0
+22:43:31,909 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+19:55:58,579 TRACE [K] ContextManager starting
+19:55:58,620 DEBUG [G] Property change listener is enabled.
+19:55:58,800 DEBUG [E] Starting Search for CPs
+19:55:58,903 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+19:55:58,937 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+19:55:58,951 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+19:55:58,998 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+19:55:59,024 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+19:55:59,043 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+19:55:59,240 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+19:55:59,240 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+19:55:59,240 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+19:55:59,240 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+19:55:59,240 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+19:55:59,240 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+19:55:59,275 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+19:55:59,275 INFO  [J] # of BB VMs Found: 0
+19:55:59,275 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+08:40:30,945 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+08:40:30,945 DEBUG [G] Property change listener is disabled.
+08:49:01,742 TRACE [K] ContextManager starting
+08:49:01,835 DEBUG [G] Property change listener is enabled.
+08:49:01,997 DEBUG [E] Starting Search for CPs
+08:49:02,044 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+08:49:02,045 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+08:49:02,046 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+08:49:02,062 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+08:49:02,077 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+08:49:02,078 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+08:49:02,214 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+08:49:02,214 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+08:49:02,214 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+08:49:02,214 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+08:49:02,214 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+08:49:02,214 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+08:49:02,276 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+08:49:02,276 INFO  [J] # of BB VMs Found: 0
+08:49:02,276 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+20:58:33,018 TRACE [K] ContextManager starting
+20:58:33,076 DEBUG [G] Property change listener is enabled.
+20:58:33,250 DEBUG [E] Starting Search for CPs
+20:58:33,259 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+20:58:33,259 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+20:58:33,260 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+20:58:33,260 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+20:58:33,260 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+20:58:33,260 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+20:58:33,361 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+20:58:33,361 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+20:58:33,361 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+20:58:33,361 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+20:58:33,361 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+20:58:33,361 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+20:58:33,394 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+20:58:33,394 INFO  [J] # of BB VMs Found: 0
+20:58:33,394 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.
+10:53:35,849 DEBUG [J] Bundle [net.rim.ejde] is changing state to Stopping.
+10:53:35,850 DEBUG [G] Property change listener is disabled.
+19:58:12,348 TRACE [K] ContextManager starting
+19:58:12,430 DEBUG [G] Property change listener is enabled.
+19:58:12,596 DEBUG [E] Starting Search for CPs
+19:58:12,719 DEBUG [E] CP named BlackBerry Java SDK version 4.5.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.5.0_4.5.0.28/components
+19:58:12,743 DEBUG [E] CP named BlackBerry Java SDK version 4.6.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.0_4.6.0.23/components
+19:58:12,754 DEBUG [E] CP named BlackBerry Java SDK version 4.6.1 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.6.1_4.6.1.49/components
+19:58:12,804 DEBUG [E] CP named BlackBerry Java SDK version 4.7.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack4.7.0_4.7.0.57/components
+19:58:12,830 DEBUG [E] CP named BlackBerry Java SDK version 5.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.25/components
+19:58:12,849 DEBUG [E] CP named BlackBerry Java SDK version 6.0.0 was found at /Users/manigandan_g/Documents/Software/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.29/components
+19:58:13,016 DEBUG [C] VM: *ADDED* [1.4$JVM 1.4]
+19:58:13,016 DEBUG [C] VM: *ADDED* [1.4.2$JVM 1.4.2]
+19:58:13,016 DEBUG [C] VM: *ADDED* [1.5$JVM 1.5]
+19:58:13,016 DEBUG [C] VM: *ADDED* [1.5.0$JVM 1.5.0]
+19:58:13,016 DEBUG [C] VM: *ADDED* [1.6$JVM 1.6]
+19:58:13,016 DEBUG [C] VM: *ADDED* [1.6.0$JVM 1.6.0]
+19:58:13,067 ERROR [E] VM Initial Load Error
+org.eclipse.core.runtime.CoreException: Execution Environment File Property-Dee.executable must point to a valid copy offledge.exe
+	at net.rim.ejde.A.I.L.A(RIMEIDE:146)
+	at net.rim.ejde.A.I.L.A(RIMEIDE:693)
+	at net.rim.ejde.A.I.E.B(RIMEIDE:2302)
+	at net.rim.ejde.A.I.E.C(RIMEIDE:2994)
+	at net.rim.ejde.A.E.J.bundleChanged(RIMEIDE:2802)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:149)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEventPrivileged(Framework.java:1350)
+	at org.eclipse.osgi.framework.internal.core.Framework.publishBundleEvent(Framework.java:1301)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:362)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:175)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:105)
+	at org.eclipse.ui.internal.Workbench$42.runWithException(Workbench.java:1661)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+19:58:13,067 INFO  [J] # of BB VMs Found: 0
+19:58:13,067 DEBUG [J] Bundle [net.rim.ejde] is changing state to Started.

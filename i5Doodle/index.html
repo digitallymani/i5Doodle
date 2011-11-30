@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8">
+			<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+			<meta name="apple-mobile-web-app-capable" content="yes" />
+			<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+			<title>i5Doodle</title>	
+			<script src="http://connect.facebook.net/en_US/all.js"></script>
+			<script type="application/javascript" src="i5LIB/i5LibManifest.js"></script>
+			<script type="application/javascript" src="i5LIB/i5Utils.js"></script>
+			<script type="application/javascript" src="i5LIB/i5Script.js"></script>
+			<script type="application/javascript" src="i5LIB/i5App.js"></script>
+			<script type="application/javascript" src="i5DoodleVariables.js"></script>
+		</head>
+		
+	<body bgcolor="#000000" id="i5DoodleBody" onload="window.THISi5APP.fnInit('i5DOODLE','DEFAULT',fnGetQuerystring('i5dfile'));">
+	<div id="fb-root" ></div>
+	<script>
+
+		//FB.Canvas.setSize({ width:300 , height: 675 }); 
+  		FB.init({
+    	appId  : '122993571085308',
+    	status : true, // check login status
+    	cookie : true, // enable cookies to allow the server to access the session
+    	xfbml  : true  // parse XFBML
+  		});
+
+	</script>
+	</body>
+</html>

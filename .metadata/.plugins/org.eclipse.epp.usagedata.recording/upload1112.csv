@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+processors,sysinfo,,,"2",1309913931971
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1309913931971
+java.runtime.version,sysinfo,,,"1.6.0_26-b03-384-10M3425",1309913931971
+java.specification.name,sysinfo,,,"Java Platform API Specification",1309913931971
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1309913931971
+java.specification.version,sysinfo,,,"1.6",1309913931971
+java.vendor,sysinfo,,,"Apple Inc.",1309913931971
+java.version,sysinfo,,,"1.6.0_26",1309913931971
+java.vm.info,sysinfo,,,"mixed mode",1309913931971
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1309913931971
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1309913931971
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1309913931971
+java.vm.specification.version,sysinfo,,,"1.0",1309913931971
+java.vm.vendor,sysinfo,,,"Apple Inc.",1309913931971
+java.vm.version,sysinfo,,,"20.1-b02-384",1309913931971
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20100123,"org.eclipse.wst.server.ui",1309913932033
+started,bundle,com.amazonaws.eclipse.elasticbeanstalk,1.0.0.v201106011817,"com.amazonaws.eclipse.elasticbeanstalk",1309913932042
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309913932967
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309913933029
+started,bundle,org.eclipse.jst.servlet.ui,1.1.301.v200908101600,"org.eclipse.jst.servlet.ui",1309913933593
+started,bundle,com.android.ide.eclipse.ddms,10.0.1.v201103111512-110841,"com.android.ide.eclipse.ddms",1309913934288
+started,bundle,com.android.ide.eclipse.adt,10.0.1.v201103111512-110841,"com.android.ide.eclipse.adt",1309913934539
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1309913938913
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309913945085
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1309913957700

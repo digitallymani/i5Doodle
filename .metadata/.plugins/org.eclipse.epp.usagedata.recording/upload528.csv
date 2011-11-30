@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307806364407
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307806382439
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307806389357
+error,log,,,"Unhandled event loop exception",1307806401163
+error,log,,,"Unhandled event loop exception",1307806401177
+error,log,,,"Unhandled event loop exception",1307806401211
+error,log,,,"Unhandled event loop exception",1307806401217
+error,log,,,"Unhandled event loop exception",1307806401220
+error,log,,,"Unhandled event loop exception",1307806401226
+error,log,,,"Unhandled event loop exception",1307806401227
+error,log,,,"Unhandled event loop exception",1307806401228
+error,log,,,"Unhandled event loop exception",1307806401259
+error,log,,,"Unhandled event loop exception",1307806401282
+error,log,,,"Unhandled event loop exception",1307806401282
+error,log,,,"Unhandled event loop exception",1307806401283
+error,log,,,"Unhandled event loop exception",1307806401284
+error,log,,,"Unhandled event loop exception",1307806401285
+error,log,,,"Unhandled event loop exception",1307806401293
+error,log,,,"Unhandled event loop exception",1307806401295
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806404448
+error,log,,,"Unhandled event loop exception",1307806404483
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806406639
+error,log,,,"Unhandled event loop exception",1307806406672
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806409952
+error,log,,,"Unhandled event loop exception",1307806409992

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849073261
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1307849073329
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1307849073329
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307849078762
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307849078813
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307849080111
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849082212
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307849084198
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849084343
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1307849084414
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1307849084415
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849091129
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307849100177
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849100286
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307849100291
+executed,command,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.openSearchDialog",1307849100393
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307849102797
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849108095
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307849116510
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849116563
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307849116581
+error,log,,,"Problems encountered during text search.",1307849116583
+executed,command,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.openSearchDialog",1307849116661
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849117116
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307849118404

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307805524686
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805526261
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805577298
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805579646
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805581118
+error,log,,,"Unhandled event loop exception",1307805582213
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1307805582343
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805582362
+error,log,,,"Unhandled event loop exception",1307805582389
+error,log,,,"Unhandled event loop exception",1307805582411
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805584004
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307805594457
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307805602649
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307805603029
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307805614684
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307805615029
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805669072
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805757539
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307805767160
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806020004
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806033411
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806036077
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806038209
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307806042958
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307806046753

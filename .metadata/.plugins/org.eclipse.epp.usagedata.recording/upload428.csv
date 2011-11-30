@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1306083882653
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306083882992
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306083883047
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1306083890935
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083891441
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083895775
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083904670
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083906953
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083924754
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083940295
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1306083954782
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1306083960336
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083960771
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083963535
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083974177
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083981216
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083999770
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1306084006780
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306084007339
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084008171
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084105250
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306084117824
+error,log,,,"Unhandled event loop exception",1306084118284
+error,log,,,"Unhandled event loop exception",1306084118365
+error,log,,,"Unhandled event loop exception",1306084118367

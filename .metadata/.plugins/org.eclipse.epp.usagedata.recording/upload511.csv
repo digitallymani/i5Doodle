@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307294687868
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307294703996
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307294708249
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307294714971
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307294717856
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307294718682
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307294727913
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294729635
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294736029
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307294747164
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294747446
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294766422
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294767582
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294793450
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307294795575
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294795890
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294830705
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307294833703
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307298134804
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307298140027
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307298140040
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.perspectives.showPerspective",1307298140047
+executed,command,,,"com.amazonaws.eclipse.ec2.perspective",1307298140047
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298140438
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.301.v201001252130,"org.eclipse.jst.j2ee.J2EEPerspective",1307298146187

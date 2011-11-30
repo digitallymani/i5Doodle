@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504663830
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504674191
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504675926
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504677950
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308504682756
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308504686723
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504687046
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504689933
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308504691515
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308504692698
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308504693760
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308504694688
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504694998
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308504695453
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308504837405
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308504840963
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1308504848476
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308504848534
+error,log,,,"Problems encountered during text search.",1308504848561
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308504848590
+executed,command,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.openFileSearchPage",1308504848675
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308504849105
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308504851632
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504861493
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308504864632

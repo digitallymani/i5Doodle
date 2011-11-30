@@ -1,0 +1,124 @@
+var fileReaderObject, fileObject, openWindow,frameObject;
+function fnOpenSelectedFile(paramObject){
+
+	
+	fileObject=paramObject.value;
+	var selectedfilename=(paramObject.value).name;
+	
+	if (selectedfilename==window.THISi5APP.filename){
+		alert("The selected file is already open. ");
+		return;
+	}
+	
+	if (window.File && window.FileReader && window.FileList && window.Blob) {
+		  // Great success! All the File APIs are supported.	
+		fnOpenLocally(paramObject);
+
+		} else {
+			alert("Your browser doesn't support reading file from your desktop. Opening the file is going to take a while. Please be patient...");
+			fnOpenRemotely(paramObject);
+
+		}
+
+
+}
+function fnOpenLocally(paramObject){
+	
+	fileReaderObject= new FileReader();	
+	fileReaderObject.readAsText(paramObject.value);
+	fileReaderObject.onloadstart = fnOpenFileLoadingStarted;
+	fileReaderObject.onload = fnOpenFileLoaded;
+	fileReaderObject.onprogress = fnOpenFileLoadingInProgress;
+	fileReaderObject.onerror = fnOpenFileLoadingError;
+	fileReaderObject.onabort = fnOpenFileLoadingAbort;
+}
+function fnOpenRemotely(paramObject){
+
+	var fileName="./i5DFILES/" + paramObject.value.fileName;
+	var method="GET";	
+	
+	frameObject=document.createElement("iframe");
+	document.body.appendChild(frameObject);
+	frameObject.setAttribute("src",fileName);
+	frameObject.setAttribute("onload","fnOpenFileLoaded()");
+	frameObject.setAttribute("width","0");
+	frameObject.setAttribute("height","0");
+
+	//frameObject.onload=fnOpenFileLoaded();
+	//window.openWindow=window.open(fileName);
+	//openWindow.onload=fnOpenFileLoaded();
+}
+
+function fnOpenFileLoadedRemotely(paramObject){
+	alert(paramObject);
+}
+function fnOpenFileLoaded(paramEvent){
+	
+	if (fileReaderObject){
+		var tempi5DContent=fileReaderObject.result;
+	}
+	else{
+	//	window.openWindow.document.onload=alert(window.openWindow.document.body.innerText);
+		var tempi5DContent=window.frames[0].document.body.innerText;
+	//	var tempi5DContent=window.openWindow.document.body.innerText;
+		//alert(tempi5DContent);
+	}
+	window.THISi5APP.filename=fileObject.name;
+	window.THISi5APP.fnClose();
+	
+	if (window.DOMParser)
+	  {
+	  parser=new DOMParser();
+	  xmlDoc=parser.parseFromString(tempi5DContent,"text/xml");
+	  }
+	else // Internet Explorer
+	  {
+	  xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+	  xmlDoc.async="false";
+	  xmlDoc.load(tempi5DContent); 
+	  }
+	
+	var contentTagsArray=xmlDoc.getElementsByTagName("i5Content");
+	var tempDivTag=document.createElement("div");
+	for (ctr=0;ctr<=contentTagsArray.childNodes.length-1;ctr++){
+		var tagType=eval(contentTagsArray.childNodes[ctr].getAttribute("type"));
+		var tagCategory=contentTagsArray.childNodes[ctr].getAttribute("category");
+		if (tagCategory=="i5CONTENT"){
+
+		for (ctr1=0;ctr1<=contentTagsArray.childNodes[ctr].attributes.length-1; ctr1++){
+			
+			tempDivTag.setAttribute(contentTagsArray.childNodes[ctr].attributes[ctr1].name,contentTagsArray[ctr].attributes[ctr1].value);
+		
+		}		
+		
+		//alert(tempDivTag.outerHTML);
+			var ai5Object=new tagType();
+			ai5Object.fnInitFromDiv(tempDivTag);
+			
+		}
+	}
+	//window.openWindow.close();
+}
+
+
+function fnOpenFileLoadingStarted(paramEvent){
+	var statusbartext=window.fnGetObject("openfilestatusbartext");
+	statusbartext.texttag.nodeValue="Loading...";
+}
+
+function fnOpenFileLoadingInProgress(paramEvent){
+	var statusbartext=window.fnGetObject("openfilestatusbartext");
+	statusbartext.texttag.nodeValue="Loading...";	
+}
+function fnOpenFileLoadingError(paramEvent){
+	var statusbartext=window.fnGetObject("openfilestatusbartext");
+	statusbartext.texttag.nodeValue="Error. Try again!";	
+
+}
+function fnOpenFileLoadingAbort(paramEvent){
+	var statusbartext=window.fnGetObject("openfilestatusbartext");
+	statusbartext.texttag.nodeValue="Loading aborted...";	
+}
+function fnCloseOpenPopup(paramObject){
+	openpopup=null;
+}

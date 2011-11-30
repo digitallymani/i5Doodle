@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307841164631
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307841164649
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307841173015
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307841176440
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307842405945
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307843417382
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307843434639
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307844272509
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307844276150
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307844292280
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307844299387
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307844300614
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307844300978
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307844308519
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307844313587
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307844321659
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307844322617
+error,log,,,"Internal Error",1307844329223
+error,log,,,"Internal Error",1307844330566
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307844338174
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307844338575
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307844355701
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307844356835
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307844357450
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307844362770

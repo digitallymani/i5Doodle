@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0_24-b07-334-10M3326",1304474684487
+java.specification.name,sysinfo,,,"Java Platform API Specification",1304474684487
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1304474684487
+java.specification.version,sysinfo,,,"1.6",1304474684487
+java.vendor,sysinfo,,,"Apple Inc.",1304474684487
+java.version,sysinfo,,,"1.6.0_24",1304474684487
+java.vm.info,sysinfo,,,"mixed mode",1304474684487
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1304474684487
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1304474684487
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1304474684487
+java.vm.specification.version,sysinfo,,,"1.0",1304474684487
+java.vm.vendor,sysinfo,,,"Apple Inc.",1304474684487
+java.vm.version,sysinfo,,,"19.1-b02-334",1304474684487
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1304474688433
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1304474688446
+closed,view,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.internal.introview",1304474688458
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304474694629
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304474698431
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304474703072
+started,bundle,org.eclipse.jst.servlet.ui,1.1.301.v200908101600,"org.eclipse.jst.servlet.ui",1304474716499
+started,bundle,org.eclipse.jst.jee.ui,1.0.201.v201002021208,"org.eclipse.jst.jee.ui",1304474716559
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.301.v201001252130,"org.eclipse.jst.j2ee.navigator.ui",1304474716586
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304474717302
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304474726776
+started,bundle,org.eclipse.wst.html.core,1.1.300.v200903120608,"org.eclipse.wst.html.core",1304474771855

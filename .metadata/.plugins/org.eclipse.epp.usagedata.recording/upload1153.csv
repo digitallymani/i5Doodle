@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695826788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695827898
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695828792
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1310695851106
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695968123
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696139218
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696141246
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696143651
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310696149341
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696150952
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696179010
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310696182594
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696183028
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696586170
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696588121
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696704257
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310696714711
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696715431
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696813052
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1310696816924
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696819451
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310696862679
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1310696868689
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1310696879870
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1310696880301

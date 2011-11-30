@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.dstore.core,3.1.1.v200909160005,"org.eclipse.dstore.core",1307847153831
+started,bundle,org.eclipse.rse.subsystems.files.ssh,2.1.100.v200905272300,"org.eclipse.rse.subsystems.files.ssh",1307847153843
+started,bundle,org.eclipse.rse.services.ssh,3.0.1.v200909160005,"org.eclipse.rse.services.ssh",1307847153857
+started,bundle,org.eclipse.rse.subsystems.processes.core,3.1.0.v200905272300,"org.eclipse.rse.subsystems.processes.core",1307847153892
+started,bundle,org.eclipse.rse.subsystems.processes.dstore,2.1.100.v200905272300,"org.eclipse.rse.subsystems.processes.dstore",1307847153893
+started,bundle,org.eclipse.rse.subsystems.processes.shell.linux,1.1.100.v200905272300,"org.eclipse.rse.subsystems.processes.shell.linux",1307847153913
+started,bundle,org.eclipse.rse.subsystems.shells.dstore,2.1.100.v200905272300,"org.eclipse.rse.subsystems.shells.dstore",1307847153918
+started,bundle,org.eclipse.rse.subsystems.shells.ssh,2.1.100.v200905272300,"org.eclipse.rse.subsystems.shells.ssh",1307847153921
+started,bundle,org.eclipse.rse.subsystems.terminals.core,1.0.1.v200908051630,"org.eclipse.rse.subsystems.terminals.core",1307847153926
+started,bundle,org.eclipse.rse.subsystems.terminals.ssh,1.0.1.v200908051630,"org.eclipse.rse.subsystems.terminals.ssh",1307847153927
+started,bundle,org.eclipse.rse.subsystems.shells.telnet,1.2.0.v200905272300,"org.eclipse.rse.subsystems.shells.telnet",1307847153930
+started,bundle,org.eclipse.rse.services.telnet,2.0.0.v200905272300,"org.eclipse.rse.services.telnet",1307847153943
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307847180020
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307847180111
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307847180118
+executed,command,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.openSearchDialog",1307847180226
+error,log,,,"Problems encountered during text search.",1307847180379
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307847180919
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307847183004
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307847185336
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307847194493
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307847213903
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307847221292
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307847221348
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307847221366

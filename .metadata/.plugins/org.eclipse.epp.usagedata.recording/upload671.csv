@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893402398
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1307893402465
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.rename",1307893402465
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307893403419
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307893404208
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307893407880
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307893408520
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893491705
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893497587
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893501492
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893508771
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893510493
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893559530
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307893561582
+opened,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1307893562013
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1307893562039
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307893629899
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307893630250
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307893644593
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893645659
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893846942
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307893848384
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1307893851235
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307893859668
+error,log,,,"Internal Error",1307893863463

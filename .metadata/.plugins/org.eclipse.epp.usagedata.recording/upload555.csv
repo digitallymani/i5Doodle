@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Core exception while retrieving the content description",1307827534639
+error,log,,,"Core exception while retrieving the content description",1307827534639
+error,log,,,"Core exception while retrieving the content description",1307827534640
+error,log,,,"Core exception while retrieving the content description",1307827534641
+error,log,,,"Core exception while retrieving the content description",1307827534642
+error,log,,,"Core exception while retrieving the content description",1307827534642
+error,log,,,"Core exception while retrieving the content description",1307827534643
+started,bundle,org.eclipse.compare,3.5.2.r35x_20100113-0800,"org.eclipse.compare",1307827535101
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827537206
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827538938
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1307827538976
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.rename",1307827538976
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827541130
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827543161
+error,log,,,"Core exception while retrieving the content description",1307827547960
+error,log,,,"Core exception while retrieving the content description",1307827547961
+error,log,,,"Core exception while retrieving the content description",1307827548000
+error,log,,,"Core exception while retrieving the content description",1307827548001
+error,log,,,"Core exception while retrieving the content description",1307827548002
+error,log,,,"Core exception while retrieving the content description",1307827548002
+error,log,,,"Core exception while retrieving the content description",1307827548003
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827551690
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827553497
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1307827553542
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.rename",1307827553542

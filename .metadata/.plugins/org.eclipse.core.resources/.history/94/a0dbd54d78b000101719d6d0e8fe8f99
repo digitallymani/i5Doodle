@@ -1,0 +1,583 @@
+var layerspopup,openpopup;
+function fnFileNew_Click(){
+
+	
+	//if (window.THISi5APP.filename){
+		if(confirm("Do you want to save and close this file?")){
+			fnFileSave_Click();
+			fnClose();
+			window.THISi5APP.filename=null;
+		}
+	//}
+	
+	//document.location.reload(true);	
+
+}
+function fnColorPickerButton_Clicked(paramValue){
+	//if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+		fnDisplayColorPickerPopup();
+	//}
+}
+function fnFileOpen_Click(){
+	if(openpopup)
+		return;
+	
+	var openpopupjson={
+			 "id":"openpopup",
+			 "title":"Open",
+			 "type":"i5Popup",
+			 "category":"i5UI",
+			 "popupstyle":"CHROME",
+			 "left":"250px",
+			 "top":"100px",
+			 "width":"330px",
+			 "height":"100px",
+			 "draggable":true,
+			 "closebutton":true,
+			 "bordercolor":"grey",
+			 "borderwidth":2,
+			 "borderstyle":"solid",
+			 "background":"#ffffff",
+			 "zindex":400,
+			 "parent":"doodlewindow",
+			 "onclosepopup":"fnCloseOpenPopup",
+			 "popupuimetaarray":[
+							{
+								 "id":"openpopupstatusbar",
+								 "type":"i5Background",
+								 "behavior":"SHAPE",
+								 "left":"0px",
+								 "top":"75px",
+								 "width":"330px",
+								 "height":"25px",
+								 "draggable":false,
+								 "cssclassname":"chromestatusbar",
+								 "zindex":4,
+								 "parent":"openpopup",
+							},
+							{
+								"id":"openpopupscript",
+								"type":"i5Script",
+								"filetype":"JAVASCRIPT",
+								"location":"SCRIPTS/i5OpenPopupScripts.js",
+							},
+							{
+								 "id":"i5openfileinput",
+								 "label":"Open:  ",
+								 "type":"i5FileInput",
+								 "zindex":400,
+								 "left":"20px",
+								 "top":"40px",
+								 "width":"300px",
+								 "style":"TRADITIONAL",
+								 "parent":"openpopup",
+								 "onchange":"fnOpenSelectedFile"
+							},
+							{
+								 "id":"openfilestatusbartext",
+								 "type":"i5Text",
+								 "zindex":400,
+								 "left":"8px",
+								 "top":"78px",
+								 "width":"200px",
+								 "textstyle":"HTMLDIV",
+								 "parent":"openpopup",
+								 "cssclassname":"statusbartext",
+								 "htmldivtext":"Select a file...",
+							},
+			              ]
+
+		};
+
+	
+	openpopup=new i5Popup();
+	openpopup.fnInitFromJson(openpopupjson);
+	
+
+	
+}
+
+function fnClose(){	
+	
+	var i5objecttags=document.getElementsByTagName("div");
+	for (ctr=0;ctr<=i5objecttags.length-1;ctr++){
+		var tagType=i5objecttags[ctr].getAttribute("type").toUpperCase();
+		var objectType=eval(i5objecttags[ctr].getAttribute("type"));
+		var tagCategory=i5objecttags[ctr].getAttribute("category");
+		if (tagType=="I5POPUP"){
+		
+			var ai5Object=new objectType();
+			ai5Object.fnInitFromDiv(i5objecttags[ctr]);
+			ai5Object.fnRemove();
+	
+	}
+	if (tagCategory=="i5CONTENT"){
+			
+			var ai5Object=new objectType();
+			ai5Object.fnInitFromDiv(i5objecttags[ctr]);
+			ai5Object.fnRemove();
+	
+	}
+	}
+}
+
+function fnFill_Click(paramObject){
+	alert("This functionality is coming available soon! Until then, please test other functionality.");
+}
+
+function fnFileSave_Click(paramObject){
+
+	//var persistString=window.THISi5APPUIOBJECTS.fnPersistToJson();
+	
+	//var persistString=window.THISi5APPUIOBJECTS.fnPersistToJson();
+	//var persistString=fnGetObject("doodlewindow").divtag.innerHTML;
+	
+	var persistString="<i5Content>";
+
+	var contentTagsArray=document.getElementsByTagName("div");
+	for (ctr=0;ctr<=contentTagsArray.length-1;ctr++){
+		var tagCategory=contentTagsArray[ctr].getAttribute("category");
+		if (tagCategory=="i5CONTENT"){
+			persistString+=contentTagsArray[ctr].outerHTML;
+		}
+	}
+	persistString+="</i5Content>"
+//	doodlewindow=fnGetObject("doodlewindow");
+	var ajax = new XMLHttpRequest();
+	ajax.open("POST",'savei5d.php',false);
+	ajax.onreadystatechange = function(){
+		 if (ajax.readyState == 4) {
+			 fnSaveUpdate(ajax.responseText);
+	      }
+	}
+	
+	ajax.setRequestHeader("Content-Type","text/xml");
+    ajax.send(persistString);  
+	
+}
+
+
+function fnSaveUpdate(paramResponseText){
+	
+	alert("After you click OK below, a new window will be displayed for you. In that new window, click File > Save As to save the file to your desktop.")
+	window.open(paramResponseText);
+		
+}
+
+
+function fnPublishToFacebook_Click(paramObject){
+	
+	this.originalcanvascontext.drawImage(this.tempcanvastag, 0, 0);
+	this.originalcanvascontext.save();
+	
+	var masterCanvas=document.createElement("canvas");
+	var masterCanvasContext=masterCanvas.getContext("2d");
+	var doodleWindowObject=fnGetObject("doodlewindow");
+	
+	masterCanvas.width=doodleWindowObject.style.width;
+	masterCanvas.height=doodleWindowObject.style.height;
+	
+	
+	var contentTagsArray=document.getElementsByTagName("div");
+	for (ctr=0;ctr<=contentTagsArray.length-1;ctr++){
+		var tagType=eval(contentTagsArray[ctr].getAttribute("type"));
+		var tagTypeString=contentTagsArray[ctr].getAttribute("type");
+		if (tagTypeString=="i5DrawingSurface"){
+			
+			var ai5Object=new tagType();
+			ai5Object.fnInitFromDiv(tempDivTag);
+			masterCanvasContext.drawImage(ai5Object.originalcanvastag, 0, 0);
+			
+		}
+	}
+	
+	var strDataURI = persistString.toDataURL("image/jpg");  
+	
+	
+	//var canvasData = testCanvas.toDataURL("image/png");
+	var ajax = new XMLHttpRequest();
+	ajax.open("POST",'save.php',false);
+	ajax.onreadystatechange = function(){
+		 if (ajax.readyState == 4) {
+			// alert(ajax.responseText);
+			 fnSavingImageUpdate(ajax.responseText);
+	      }
+	}
+	//fnSavingImageUpdate;
+	ajax.setRequestHeader('Content-Type', 'application/upload');
+	ajax.send(strDataURI);  
+
+}
+
+function fnSavingImageUpdate(paramFileName){
+
+	
+	FB.ui(  {
+	     method: 'feed',
+	     name: 'i5Doodle',
+	     link:  './i5DOODLES/' + paramFileName,
+	     picture: './i5DOODLES/' + paramFileName,
+	     caption: 'I used i5Doodle(Dev)!',
+	     description: 'I used i5Doodle(Dev)!',
+	     message: 'I used i5Doodle(Dev)!'
+	   },
+	   function(response) {
+	     if (response && response.post_id) {
+	       alert('Post was published.');
+	     } else {
+	       alert('Post was not published.');
+	     }
+	   });
+}
+
+function fnViewDrawingSurfaces_Click(){
+	
+	if(layerspopup)
+		return;
+	
+	var layerspopupjson={
+			 "id":"layerspopup",
+			 "title":"Layers",
+			 "type":"i5Popup",
+			 "category":"i5UI",
+			 "popupstyle":"CHROME",
+			 "left":"530px",
+			 "top":"5px",
+			 "width":"170px",
+			 "height":"400px",
+			 "draggable":true,
+			 "closebutton":true,
+			 "bordercolor":"grey",
+			 "borderwidth":2,
+			 "borderstyle":"solid",
+			 "background":"#ffffff",
+			 "zindex":400,
+			 "parent":"doodlewindow",
+			 "onclosepopup":"fnCloseLayersPopup",
+			 "popupuimetaarray":[
+							{
+								"id":"drawingpopupscript",
+								"type":"i5Script",
+								"filetype":"JAVASCRIPT",
+								"location":"SCRIPTS/i5DrawingSurfacePopupScripts.js",
+							},
+							{
+								 "id":"layerspopupstatus",
+								 "type":"i5Background",
+								 "behavior":"SHAPE",
+								 "left":"0px",
+								 "top":"375px",
+								 "width":"170px",
+								 "height":"25px",
+								 "draggable":false,
+								 "cssclassname":"chromestatusbar",
+								 "zindex":4,
+								 "parent":"layerspopup",
+							},
+							{
+								 "id":"addlayerbutton",
+								 "label":"ADD",
+								 "type":"i5Button",
+								 "size":"mini",
+								 "buttonstyle":"SHAPE",
+								 "color":"grey",
+								 "zindex":400,
+								 "left":"10px",
+								 "top":"380px",
+								 "height":"10px",
+								 "parent":"layerspopup",
+								 "touchend":"fnAddLayers"
+							},
+							{
+								 "id":"deletelayerbutton",
+								 "label":"DEL",
+								 "type":"i5Button",
+								 "size":"mini",
+								 "buttonstyle":"SHAPE",
+								 "color":"grey",
+								 "zindex":400,
+								 "left":"50px",
+								 "top":"380px",
+								 "height":"10px",
+								 "parent":"layerspopup",
+								 "touchend":"fnDeleteLayers"
+							},
+							{
+								 "id":"uplayerbutton",
+								 "label":"UP",
+								 "type":"i5Button",
+								 "size":"mini",
+								 "buttonstyle":"SHAPE",
+								 "color":"grey",
+								 "zindex":400,
+								 "left":"90px",
+								 "top":"380px",
+								 "height":"10px",
+								 "parent":"layerspopup",
+								 "touchend":"fnUpLayer"
+							},
+							{
+								 "id":"downlayerbutton",
+								 "label":"DOWN",
+								 "type":"i5Button",
+								 "size":"mini",
+								 "buttonstyle":"SHAPE",
+								 "color":"grey",
+								 "zindex":400,
+								 "left":"125px",
+								 "top":"380px",
+								 "height":"10px",
+								 "parent":"layerspopup",
+								 "touchend":"fnDownLayer"
+							},
+							{
+								 "id":"layernames",
+								 "type":"i5TableView",
+								 "tableviewstyle":"TEXT",
+								 "color":"grey",
+								 "left":"2px",
+								 "top":"26px",
+								 "width":"180px",
+								 "height":"365px",
+								 "zindex":400,
+								 "allowresize":true,
+								 "parent":"layerspopup",
+								 "touchend":"fnDownLayer"
+							},     
+			                     ],
+		};
+
+		
+	layerspopup=new i5Popup();
+	layerspopup.fnInitFromJson(layerspopupjson);
+		
+	window.layertableview=window.fnGetObject("layernames");
+	
+	for(key in window.ARRAYOFDRAWINGSURFACES){
+		
+		/*var paramtypejson={
+				"id":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"group":"drawingsurfaces",
+				"type": "i5RadioButton",
+				"label":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"style":"TRADITIONAL",
+				"zindex":800,
+				"value":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"touchend":"fnSelectDrawingSurface"
+		};*/
+		
+
+		paramtypejson={
+				"id":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"group":"drawingsurfaces",
+				"type": "i5RadioButton",
+				"category":"i5UI",
+				"label":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"radiobuttonstyle":"TRADITIONAL",
+				//"zindex":1000,
+				"value":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"touchend":"fnSelectDrawingSurface"
+		};
+
+		
+		window.layertableview.fnCreateItem(paramtypejson);
+
+	}
+
+}
+function fnDisplayColorPickerPopup(){
+
+	//if(colorpickerpopup)
+		//return;
+	
+
+	
+	var colorpickerpopupjson={
+			 "id":"colorpickerpopup",
+			 "title":"Color Picker",
+			 "type":"i5Popup",
+			 "popupstyle":"CHROME",
+			 "category":"i5UI",
+			 "left":"20px",
+			 "top":"20px",
+			 "width":"200px",
+			 "height":"200px",
+			 "draggable":false,
+			 "closebutton":true,
+			 "bordercolor":"grey",
+			 "borderwidth":2,
+			 "borderstyle":"solid",
+			 "background":"#ffffff",
+			 "zindex":500,
+			 "parent":"doodlewindow",
+		     "onclosepopup":"fnCloseColorPopup",
+             "popupuimetaarray":[
+                                 {
+									 "id":"redrange",
+									 "type":"i5Range",
+									 "style":"TRADITIONAL",
+									 "category":"i5UI",
+									 "label":"Red",
+									 "left":"5px",
+									 "top":"30px",
+									 "width":"50px",
+									 "height":"25px",
+									 "draggable":false,
+									 "min":0,
+									 "max":255,
+									 "zindex":500,
+									 "touchend":"fnRedRange_Click",
+									 "parent":"colorpickerpopup",
+                                 	},
+									{
+										 "id":"rednsjson",
+										 "type":"i5NumberSpinner",
+										 "numberspinnerstyle":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"",
+										 "left":"140px",
+										 "top":"43px",
+										 "width":"50px",
+										 "height":"20px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnRedNS_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"greenrange",
+										 "type":"i5Range",
+										 "style":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"Green",
+										 "left":"5px",
+										 "top":"80px",
+										 "width":"50px",
+										 "height":"25px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnGreenRange_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"greennsjson",
+										 "type":"i5NumberSpinner",
+										 "numberspinnerstyle":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"",
+										 "left":"140px",
+										 "top":"93px",
+										 "width":"50px",
+										 "height":"20px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnGreenNS_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"bluerange",
+										 "type":"i5Range",
+										 "style":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"Blue",
+										 "left":"5px",
+										 "top":"130px",
+										 "width":"50px",
+										 "height":"25px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnBlueRange_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"bluensjson",
+										 "type":"i5NumberSpinner",
+										 "numberspinnerstyle":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"",
+										 "left":"140px",
+										 "top":"143px",
+										 "width":"50px",
+										 "height":"20px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnBlueNS_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"bgcolorvalue",
+										 "type":"i5Background",
+										 "style":"TRADITIONAL",
+										 "category":"i5UI",
+										 "left":"5px",
+										 "top":"170px",
+										 "width":"100px",
+										 "height":"20px",
+										 "draggable":false,
+										 "zindex":500,
+										 "parent":"colorpickerpopup",
+									},
+									],
+	};
+	
+	
+	colorpickerpopup=new i5Popup();
+	colorpickerpopup.fnInitFromJson(colorpickerpopupjson);
+	
+	var tempRGB;
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){	
+		tempRGB=window.SELECTEDOBJECT.drawingtoolcolor;
+	}	
+	
+	tempRGB=(tempRGB.charAt(0)=="#") ? tempRGB.substring(1,7):tempRGB;
+
+			
+	var bgcolor=fnGetObject("bgcolorvalue");
+	bgcolor.fnSetBackgroundColor("#" + tempRGB);
+	
+	var objColorArray=fnHexToRGB(tempRGB);
+	
+	
+	nsred=fnGetObject("rednsjson");
+	nsred.fnSetValue(objColorArray[0]);
+	
+	nsred=fnGetObject("redrange");
+	nsred.fnSetValue(objColorArray[0]);
+	
+	nsgreen=fnGetObject("greennsjson");
+	nsgreen.fnSetValue(objColorArray[1]);
+	
+	nsgreen=fnGetObject("greenrange");
+	nsgreen.fnSetValue(objColorArray[1]);
+	
+	nsblue=fnGetObject("bluensjson");
+	nsblue.fnSetValue(objColorArray[2]);
+	
+	nsblue=fnGetObject("bluerange");
+	nsblue.fnSetValue(objColorArray[2]);
+	
+}
+
+function fnCloseColorPopup(paramObject){
+	window.colorpickerpopup=null;
+}
+
+function fnCloseLayersPopup(paramObject){
+	layerspopup=null;
+}
+
+function fnHelp_Click(){
+	alert("Help is currently not available. Please try again later.");
+}
+

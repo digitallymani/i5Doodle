@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308191458310
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308191458837
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191459407
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191466855
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.cut",1308191468780
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308191471940
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308191472309
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191473360
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191482416
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308191485070
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191486741
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191489851
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191491041
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191561147
+error,log,,,"Unexpected runtime error while computing a text hover",1308191570317
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308191571907
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308191573757
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308191575116
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308191575438
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191576592
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191598840
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191600326
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191601128
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191602455
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191610548

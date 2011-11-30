@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501565858
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501574110
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501614777
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308501621896
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501623337
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501668974
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308501676360
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308501686726
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308501687062
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308501687110
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1308501697490
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308501698454
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501723144
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501750523
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308501752797
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308501753953
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308501754342
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501754869
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501766796
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308501782423
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308501792796
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501793245
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308501841803
+error,log,,,"i5Doodle does not exist",1308501885457
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308501892225

@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.datatools.sqltools.sqleditor,1.0.1.v200912241345,"org.eclipse.datatools.sqltools.sqleditor",1308615274148
+stopped,bundle,org.eclipse.datatools.sqltools.editor.core.ui,1.0.0.v201001150815,"org.eclipse.datatools.sqltools.editor.core.ui",1308615274151
+stopped,bundle,org.eclipse.datatools.sqltools.tabledataeditor,1.0.0.v200906022302,"org.eclipse.datatools.sqltools.tabledataeditor",1308615274154
+stopped,bundle,org.eclipse.datatools.connectivity.sqm.core.ui,1.1.100.v200910270525,"org.eclipse.datatools.connectivity.sqm.core.ui",1308615274166
+stopped,bundle,org.eclipse.datatools.connectivity.ui.dse,1.1.3.v201001270323,"org.eclipse.datatools.connectivity.ui.dse",1308615274174
+stopped,bundle,org.eclipse.pde.ua.ui,1.0.0.v20090511,"org.eclipse.pde.ua.ui",1308615274213
+stopped,bundle,org.eclipse.datatools.connectivity.oda.template.ui,3.2.0.v200906020553,"org.eclipse.datatools.connectivity.oda.template.ui",1308615274239
+stopped,bundle,org.eclipse.pde.api.tools.ui,1.0.101.v20090820,"org.eclipse.pde.api.tools.ui",1308615274306
+stopped,bundle,org.eclipse.pde.ds.ui,1.0.0.v20100209-maintenance,"org.eclipse.pde.ds.ui",1308615274435
+stopped,bundle,org.eclipse.pde.runtime,3.4.100.v20090731,"org.eclipse.pde.runtime",1308615274492
+stopped,bundle,org.eclipse.pde.ui.templates,3.4.100.v20090527,"org.eclipse.pde.ui.templates",1308615274717
+stopped,bundle,org.eclipse.pde.ui,3.5.1.v201001121200,"org.eclipse.pde.ui",1308615274744

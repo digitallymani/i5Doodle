@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309390492204
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309390492971
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309390930759
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309390938659
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309390942089
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309390943977
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309390953032
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309391025779
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1309391032338
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309391138546
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309391149678
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309391289024
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309391535791
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309391541897
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309391612106
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309391648741
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1309391654473
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309391656311
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1309391667747
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309391668380
+error,log,,,"Unhandled event loop exception",1309391673267
+error,log,,,"Unhandled event loop exception",1309391673301
+error,log,,,"Unhandled event loop exception",1309391673794
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1309391675041
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309391675231

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475998087
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475998120
+error,log,,,"Importing Java Enterprise Edition artifacts ...",1304476007662
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476010411
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476011278
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476016336
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476024719
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1304476031810
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1304476032007
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476032058
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1304476032067
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476034407
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476037516
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476037547
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476054167
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1304476054845
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1304476055867
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1304476057281
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476062259
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476063800
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476066204
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476082238
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304476086741
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1304476098289
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1304476098325

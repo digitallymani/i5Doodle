@@ -1,0 +1,511 @@
+
+i5DrawingSurface.prototype=i5UIObject;
+i5DrawingSurface.prototype.constructor=i5DrawingSurface;
+
+function i5DrawingSurface(){
+	
+	
+	i5UIObject.call(this);
+	
+	this.i5DrawingSurfacePropList={
+			"x0":"x0",
+			"y0":"y0",
+			"arrayofmousexpositions":"arrayofmousexpositions",
+			"arrayofmouseypositions":"arrayofmouseypositions",
+			"arrayofmousedragpositions":"arrayofmousedragpositions",
+			"drawingtool":"drawingtool",
+			"drawingtoolcolor":"drawingtoolcolor",
+			"drawingtoolwidth":"drawingtoolwidth",
+			"drawingsurfacedata":"drawingsurfacedata",
+			"visible":"visible",
+	}
+	
+	this.originalcanvastag="";
+	this.originalcanvascontext="";
+	
+	//this.drawingsurfacedata="";
+	
+	this.tempcanvastag="";
+	this.tempcanvascontext="";
+	
+	this.visible=true;
+	this.drawingtool=""; //i5PENCIL, i5RECTANGLE, i5CIRCLE, i5ERASER
+	this.drawingtoolcolor="#000000";
+	this.drawingtoolwidth=1;
+	
+	
+	//CAPTURE MOUSE POSITIONS
+	this.arrayofmousexpositions=new Array();
+	this.arrayofmouseypositions=new Array();
+	this.arrayofmousedragpositions=new Array();
+	this.x0=0;
+	this.y0=0;
+	
+	this.drawing=false;
+
+	
+	
+this.fnInitFromJson=function(paramObject){
+	
+	i5UIObject.prototype.fnInitFromJson.call(this,paramObject); 
+	
+	for(key in paramObject){
+		this[key]=paramObject[key];
+	}
+	
+	this.fnCreateDiv();
+	
+	this.divtag.style.width=this.parentObject.divtag.style.width;
+	this.divtag.style.height=this.parentObject.divtag.style.height;
+	
+	this.fnCreate(this.divtag,parseInt(this.divtag.style.width), parseInt(this.divtag.style.height));
+	this.fnPrepareToDraw();
+
+	if (this.drawingsurfacedata){
+		this.originalcanvascontext=this.originalcanvastag.getContext("2d");
+		this.imagecontent=new Image();
+		this.imagecontent.imagepreloader=this;
+		this.imagecontent.onload=methodizeevent(this.fnDrawingSurfaceImageLoaded,this);
+		this.imagecontent.onerror=methodizeevent(this.fnDrawingSurfaceImageError,this);
+		this.imagecontent.src=this.drawingsurfacedata;
+
+	}
+	
+	this.fnAddToArrayOfDrawingSurfaces();
+
+}
+
+this.fnInitFromDiv=function(paramObject){
+
+	i5UIObject.prototype.fnInitFromDiv.call(this,paramObject); 
+
+		//set i5BackgroundPropList
+		for(key in this.i5DrawingSurfacePropList){
+			if (paramObject.getAttribute(key)){
+				this[key]=paramObject.getAttribute(key);
+				this.divtag.setAttribute(key,paramObject.getAttribute(key));
+			}	
+		}
+		this.fnCreate(paramObject,parseInt(paramObject.style.width), parseInt(paramObject.style.height));
+		this.fnPrepareToDraw();
+	
+		this.fnAddToArrayOfDrawingSurfaces();
+		
+		if (paramObject.getAttribute("drawingsurfacedata")){
+			this.originalcanvascontext=this.originalcanvastag.getContext("2d");
+			this.imagecontent=new Image();
+			this.imagecontent.imagepreloader=this;
+			this.imagecontent.onload=methodizeevent(this.fnDrawingSurfaceImageLoaded,this);
+			this.imagecontent.onerror=methodizeevent(this.fnDrawingSurfaceImageError,this);
+			this.imagecontent.src=paramObject.getAttribute("drawingsurfacedata");;
+
+		}
+
+}
+
+this.fnSetPropValue(paramProp, paramValue){
+	
+}
+this.fnDrawingSurfaceImageLoaded=function(){
+	
+	this.originalcanvascontext.drawImage(this.imagecontent,0,0);
+
+}
+this.fnAddToArrayOfDrawingSurfaces=function(){
+
+	var blnFound=false;
+	for (key in window.ARRAYOFDRAWINGSURFACES){
+		tempObject=window.ARRAYOFDRAWINGSURFACES[key];
+		if (tempObject.id==this.id){
+			blnFound=true;
+			break;
+		}
+	}
+	
+	if (blnFound==false)
+		window.ARRAYOFDRAWINGSURFACES.push(this);
+}
+
+this.fnCreateDiv=function(){
+	i5UIObject.prototype.fnCreateDiv.call(this); 
+	for(key in this.i5DrawingSurfacePropList){
+		if (this[this.i5DrawingSurfacePropList[key]]){
+		this.divtag.setAttribute(this.i5DrawingSurfacePropList[key],this[this.i5DrawingSurfacePropList[key]] )
+		}
+	}
+}
+
+this.fnPersistToJson=function(){
+	
+	var jsonFormat="{";
+	this.drawingsurfacedata=this.originalcanvastag.toDataURL("image/jpg");
+	
+	for (key in this.i5PropsList) {
+		  jsonFormat+="'" + this.i5PropsList[key] + "':";	  
+		  jsonFormat+="'" + this.divtag.getAttribute(key) + "',";
+	 }
+	
+	for (key in this.divtagPropsList) {
+		  jsonFormat+="'" + this.divtagPropsList[key] + "':";	  
+		  jsonFormat+="'" + this.divtag[key] + "',";
+	 }
+    for (key in this.divstylePropsList) {
+		  jsonFormat+="'" + this.divstylePropsList[key] + "':";	  
+		  jsonFormat+="'" + this.divtag.style[this.divstylePropsList[key]] + "',";
+	   }
+    
+    jsonFormat+="'drawingsurfacedata':'" + this.drawingsurfacedata + "',";
+	  jsonFormat += "},";
+	  return(jsonFormat);
+}
+
+
+
+this.fnCreate=function(paramParentObject, paramWidth, paramHeight){
+	
+	/*CREATE TEMP CONTEXT*/
+	
+	this.originalcanvastag=document.getElementById("canvas" + this.id);
+	
+	if (this.originalcanvastag){
+		//this.divtag.removeChild(document.getElementById("canvas" + this.id));
+		//this.originalcanvastag=document.getElementById("canvas");
+		this.originalcanvascontext=this.originalcanvastag.getContext('2d');
+		return;
+	}
+	
+	this.originalcanvastag=document.createElement("canvas");
+	this.originalcanvastag.id="canvas" + this.id;
+
+	
+	if (!paramParentObject)
+		paramParentObject=this.parentObject;
+	
+	if (!paramWidth)
+		paramWidth=parseInt(paramParentObject.divtag.style.width);
+	
+	if (!paramHeight)
+		paramHeight=parseInt(paramParentObject.divtag.style.height);
+	
+	this.originalcanvastag.width=paramWidth;
+	this.originalcanvastag.height=paramHeight;
+	
+	var maxzindex=this.zindex;
+	
+	if(window.ARRAYOFDRAWINGSURFACES.length>0){
+		for(key in window.ARRAYOFDRAWINGSURFACES){
+			var maxzindex=Math.max(this.zindex,window.ARRAYOFDRAWINGSURFACES[key].zindex);
+		}
+	}
+	
+	this.divtag.style.zIndex=maxzindex+1;	
+	this.zindex=this.divtag.style.zIndex;
+
+	this.divtag.appendChild(this.originalcanvastag);
+	this.originalcanvascontext=this.originalcanvastag.getContext('2d');
+
+	//window.ARRAYOFDRAWINGSURFACES.push(this);
+	
+}
+
+this.fnMoveUp=function(){
+		
+	for(key in window.ARRAYOFDRAWINGSURFACES){
+		
+		if (window.ARRAYOFDRAWINGSURFACES[key].id==this.id){
+			
+			var tempdrawingsurface=window.ARRAYOFDRAWINGSURFACES[key+1];
+			
+			if (this.key>1){
+				this.originalcanvastag.style.zIndex=window.ARRAYOFDRAWINGSURFACES[key+1].zindex+1;
+				this.zindex=this.canvastag.style.zIndex;
+			}
+			
+			window.ARRAYOFDRAWINGSURFACES[key]=tempdrawingsurface;
+			window.ARRAYOFDRAWINGSURFACES[key+1]=this;
+						
+		}
+	}
+	
+}
+
+this.fnMoveDown=function(){
+	
+	
+	for(key in window.ARRAYOFDRAWINGSURFACES){
+		
+		if (window.ARRAYOFDRAWINGSURFACES[key].id==this.id){
+			
+			var tempdrawingsurface=window.ARRAYOFDRAWINGSURFACES[key-1];
+			
+			this.originalcanvastag.style.zIndex=window.ARRAYOFDRAWINGSURFACES[key-1].zindex-1;
+			this.zindex=this.canvastag.style.zIndex;
+			
+			
+			window.ARRAYOFDRAWINGSURFACES[key]=tempdrawingsurface;
+			window.ARRAYOFDRAWINGSURFACES[key-1]=this;
+						
+		}
+	}
+	
+}
+
+
+
+
+this.fnRemove=function(){
+
+	i5UIObject.prototype.fnRemove.call(this); 
+
+	for(key in window.ARRAYOFDRAWINGSURFACES){
+
+		if (window.ARRAYOFDRAWINGSURFACES[key].id==this.id){
+			window.ARRAYOFDRAWINGSURFACES.splice(key,1);		
+
+		}
+	}		
+}
+
+this.fnShow=function(){
+	this.visible=true;
+	this.divtag.style.display="inline";
+}
+
+this.fnHide=function(){
+	this.divtag.style.display="block";
+	this.visible=false;
+}
+
+this.fnExecuteShapeDraw=function(paramEvent){
+	
+	
+	paramEvent._x = paramEvent.clientX-(this.parentObject.divtag.offsetLeft + this.divtag.offsetLeft);
+	paramEvent._y =  paramEvent.clientY-(this.parentObject.divtag.offsetTop + this.divtag.offsetTop);
+
+	//this.fnPrepareToDraw();
+	//alert(paramEvent._x);
+	
+	 if (paramEvent.type=="mousedown")
+		 this.mousedown(paramEvent);
+	 
+	 if (paramEvent.type=="mousemove")
+		 this.mousemove(paramEvent);
+
+
+	 if (paramEvent.type=="mouseup")
+		 this.mouseup(paramEvent);
+	 
+	 //this[paramEvent.type.toString()]();
+
+		this.parentObject.divtag.style.cursor="default";
+}
+
+
+this.fnPrepareToDraw=function(){
+	
+	if (this.drawingtool=="i5NONE"){	
+		
+		this.divtag.draggable=true;
+		this.allowresize=true;
+		this.draggable=true;
+		
+		this.divtag.onmouseup=methodizeevent(this.fnTouchEnd, this);
+		
+		if (this.allowresize==true){
+			
+			this.divtag.style.resize="both";
+			this.divtag.style.overflow="auto";
+			this.divtag.style.maxWidth=(parseInt(this.parentObject.divtag.style.width)-parseInt(this.divtag.style.left)) + "px";
+			this.divtag.style.maxHeight=(parseInt(this.parentObject.divtag.style.height)-parseInt(this.divtag.style.top)) + "px";	
+
+			this.originalcanvastag.onmousedown="";
+			this.originalcanvastag.onmousemove="";
+			this.originalcanvastag.onmouseup="";
+			
+			this.divtag.ondragstart=methodizeevent(this.fnOnDragStart,this);
+			this.divtag.ondrag=methodizeevent(this.fnOnDrag,this);
+			this.divtag.ondragend=methodizeevent(this.fnOnDragEnd,this);
+			
+		}
+		
+	}
+	else
+	{
+		this.draggable=false;
+		this.divtag.draggable=false;
+
+		this.allowresize=false;
+		this.divtag.onmouseup="";
+		this.divtag.style.resize="";
+		this.divtag.style.overflow="";
+		
+		this.tempcanvastag=document.getElementById("tempcanvas" + this.divtag.id);
+		
+		/*CREATE TEMP CONTEXT*/
+		if (this.tempcanvastag){
+			this.tempcanvascontext=this.tempcanvastag.getContext("2d");
+		}
+		
+		//this.tempcanvastag=document.getElementById("tempcanvas" + this.divtag.id);
+		
+		//if (!this.tempcanvastag){
+			this.tempcanvastag=document.createElement("canvas");
+			this.tempcanvastag.id="tempcanvas" + this.divtag.id;
+			this.tempcanvastag.style.position="absolute";
+			this.tempcanvastag.style.left="0px";
+			this.tempcanvastag.style.top="0px";
+			this.tempcanvastag.width=parseInt(this.divtag.style.width);
+			this.tempcanvastag.height=parseInt(this.divtag.style.height);
+			this.divtag.appendChild(this.tempcanvastag);
+		//}
+		this.tempcanvascontext=this.tempcanvastag.getContext("2d");
+		
+
+		/*END TEMP CONTEXT */
+		
+		this.tempcanvastag.onmousedown=methodizeevent(this.fnExecuteShapeDraw,this);
+		this.tempcanvastag.onmousemove=methodizeevent(this.fnExecuteShapeDraw,this);
+		this.tempcanvastag.onmouseup=methodizeevent(this.fnExecuteShapeDraw,this);
+		
+		this.divtag.ondragstart="";
+		this.divtag.ondrag="";
+		this.divtag.ondragend="";
+
+	}
+	
+}
+
+this.fnTrackMouseClick=function(paramX,paramY, paramDragging){
+	
+	this.arrayofmousexpositions.push(paramX);
+	this.arrayofmouseypositions.push(paramY);
+	this.arrayofmousedragpositions.push(paramDragging);
+	
+	
+}
+
+this.fnReDraw=function(){
+	  
+	  this.tempcanvascontext.strokeStyle = this.drawingtoolcolor;
+	  this.tempcanvascontext.lineJoin = "round";
+	  this.tempcanvascontext.lineWidth = this.drawingtoolwidth;
+				
+	  for(var i=0; i < this.arrayofmousexpositions.length; i++)
+	  {		
+		this.tempcanvascontext.beginPath();
+	    if(this.arrayofmousedragpositions[i] && i){
+	      this.tempcanvascontext.moveTo(this.arrayofmousexpositions[i-1], this.arrayofmouseypositions[i-1]);
+	     }else{
+	    	 this.tempcanvascontext.moveTo(this.arrayofmousexpositions[i]-1, this.arrayofmouseypositions[i]);
+			  
+	     }
+	    this.tempcanvascontext.lineTo(this.arrayofmousexpositions[i], this.arrayofmouseypositions[i]);
+		 
+	    this.tempcanvascontext.closePath();
+	    this.tempcanvascontext.stroke();
+	  }
+}
+
+this.mousedown=function(paramEvent){
+	this.arrayofmousexpositions=new Array();
+	this.arrayofmouseypositions=new Array();
+	this.arrayofmousedragpositions=new Array();
+	
+	
+	if (this.drawingtool=="i5PENCIL"){	
+	/*PENCIL*/
+		this.tempcanvastag.style.cursor="pointer"; 
+		this.tempcanvascontext.beginPath();
+		this.tempcanvascontext.moveTo(paramEvent._x,paramEvent._y);
+		this.drawing=true;
+		this.fnTrackMouseClick(paramEvent._x, paramEvent._y);
+		this.fnReDraw();
+	}
+	/*RECT*/
+	if (this.drawingtool=="i5RECTANGLE"){	
+		this.tempcanvastag.style.cursor="pointer"; 
+
+		this.x0=paramEvent._x;
+		this.y0=paramEvent._y;
+		this.fnTrackMouseClick(paramEvent._x, paramEvent._y);
+
+		this.drawing=true;
+	}
+	/*LINE*/
+	if (this.drawingtool=="i5LINE"){	
+		this.x0=paramEvent._x;
+		this.y0=paramEvent._y;
+		this.fnTrackMouseClick(paramEvent._x, paramEvent._y);
+		this.drawing=true;
+
+		
+	}
+	
+}
+
+this.mousemove=function(paramEvent){
+
+if (this.drawing==true){
+	/*PENCIL*/
+
+	if (this.drawingtool=="i5PENCIL"){	
+
+		this.tempcanvastag.style.cursor="pointer"; 
+		this.tempcanvascontext.lineTo(paramEvent._x,paramEvent._y);
+		this.tempcanvascontext.stroke();
+		this.fnTrackMouseClick(paramEvent._x, paramEvent._y,true);
+		this.fnReDraw();
+	}
+	if (this.drawingtool=="i5RECTANGLE"){	
+		 var x = Math.min(paramEvent._x,  this.x0),
+         y = Math.min(paramEvent._y,  this.y0),
+         w = Math.abs(paramEvent._x - this.x0),
+         h = Math.abs(paramEvent._y - this.y0);
+		 
+		this.fnTrackMouseClick(paramEvent._x, paramEvent._y,true);
+
+	    this.tempcanvascontext.clearRect(0, 0, this.tempcanvastag.width, this.tempcanvastag.height);
+
+	     if (!w || !h) {
+	         return;
+	       }
+
+	       this.tempcanvascontext.strokeRect(x, y, w, h);
+
+		}
+	if (this.drawingtool=="i5LINE"){	
+		 
+		this.tempcanvascontext.clearRect(0, 0, this.tempcanvastag.width, this.tempcanvastag.height);
+
+		this.tempcanvascontext.beginPath();
+		this.tempcanvascontext.moveTo(this.x0, this.y0);
+		this.tempcanvascontext.lineTo(paramEvent._x,   paramEvent._y);
+		this.tempcanvascontext.stroke();
+		this.tempcanvascontext.closePath();
+	}
+	}	
+}
+this.mouseup=function(paramEvent){
+
+if (this.drawing==true){
+
+	this.tempcanvascontext.save();
+	this.mousemove(paramEvent);
+	this.drawing=false;
+	this.tempcanvastag.style.cursor="default"; 
+
+	this.originalcanvascontext=this.originalcanvastag.getContext("2d");
+	this.originalcanvascontext.drawImage(this.tempcanvastag, 0, 0);
+	this.originalcanvascontext.save();
+	
+	this.drawingsurfacedata=this.originalcanvastag.toDataURL("image/jpg");
+	this.divtag.setAttribute("drawingsurfacedata",this.drawingsurfacedata);
+
+	this.tempcanvascontext.clearRect(0, 0, this.tempcanvastag.width, this.tempcanvastag.height);
+		
+
+}
+
+}
+
+}

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307290221427
+error,log,,,"Unable to query list of AMIs: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290221618
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307290223806
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307290225344
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307290229633
+activated,editor,com.amazonaws.eclipse.core,1.0.5.v201101181646,"com.amazonaws.eclipse.core.ui.overview",1307290232250
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307290235262
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307290242360
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290270832
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307290272929
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307290274282
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307290274308
+error,log,,,"Unable to refresh EBS volumes: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290274445
+error,log,,,"Unable to refresh snapshots: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290274504
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.views.SecurityGroupView",1307290275201
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.views.SecurityGroupView",1307290275243
+error,log,,,"Unable to refresh security groups: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290275253
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307290276355
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290279505
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290280361
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290280957
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290281793
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307290283419
+activated,editor,com.amazonaws.eclipse.core,1.0.5.v201101181646,"com.amazonaws.eclipse.core.ui.overview",1307290285140
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307290310202

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504020986
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308504022029
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308504023132
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504023506
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308504024660
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308504027123
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504031971
+error,log,,,"Unhandled event loop exception",1308504071172
+error,log,,,"Unhandled event loop exception",1308504071365
+error,log,,,"Unhandled event loop exception",1308504071521
+error,log,,,"Unhandled event loop exception",1308504071522
+error,log,,,"Unhandled event loop exception",1308504071541
+error,log,,,"Unhandled event loop exception",1308504071700
+error,log,,,"Unhandled event loop exception",1308504071884
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308504072791
+error,log,,,"Unhandled event loop exception",1308504072805
+error,log,,,"Unhandled event loop exception",1308504073402
+error,log,,,"Unhandled event loop exception",1308504073403
+error,log,,,"Unhandled event loop exception",1308504073445
+error,log,,,"Unhandled event loop exception",1308504073524
+error,log,,,"Unhandled event loop exception",1308504073524
+error,log,,,"Unhandled event loop exception",1308504074710
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308504078288
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308504078289
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308504083289

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308524430787
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308524434701
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.cut",1308524441316
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308524442242
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308524442657
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308524452864
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308524456736
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308524457059
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308524459539
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308524459977
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308524664606
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308524672693
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308524672693
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308524676835
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308524700419
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308524700719
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308524715330
+error,log,,,"Unhandled event loop exception",1308524718323
+error,log,,,"Unhandled event loop exception",1308524718338
+error,log,,,"Unhandled event loop exception",1308524719395
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1308524720196
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308524720314
+error,log,,,"Unhandled event loop exception",1308524720361
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308524721597
+error,log,,,"Unhandled event loop exception",1308524721634

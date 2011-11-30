@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307300476757
+error,log,,,"Unable to detach EBS volume: Volume 'vol-718f1e1a'is in the 'available' state.",1307300485146
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300485562
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300488512
+error,log,,,"Unable to detach EBS volume: Volume 'vol-718f1e1a'is in the 'available' state.",1307300494324
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300494339
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300495563
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307300500174
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300504176
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300514909
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307300516358
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300518884
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300591598
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300605463
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300614548
+executed,command,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.openLaunchWizardCommand",1307300614594
+executed,command,com.amazonaws.eclipse.core,1.0.5.v201101181646,"com.amazonaws.eclipse.command.openWebConsole",1307300617946
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300617948
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300905727
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300909158
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300951892
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307300966156
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307300967593
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307301611112
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307301613226

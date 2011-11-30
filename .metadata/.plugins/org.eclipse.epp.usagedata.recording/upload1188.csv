@@ -1,0 +1,15 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.team.cvs.ssh2,3.2.200.I20090508-2000,"org.eclipse.team.cvs.ssh2",1310914417278
+stopped,bundle,org.eclipse.team.cvs.ssh,3.2.100.I20090508-2000,"org.eclipse.team.cvs.ssh",1310914417360
+stopped,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1310914417360
+stopped,bundle,org.eclipse.tm.terminal.ssh,2.0.100.v200905272300,"org.eclipse.tm.terminal.ssh",1310914417360
+stopped,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1310914417360
+stopped,bundle,org.eclipse.rse.subsystems.files.dstore,2.1.100.v200905272300,"org.eclipse.rse.subsystems.files.dstore",1310914417360
+stopped,bundle,org.eclipse.rse.subsystems.processes.dstore,2.1.100.v200905272300,"org.eclipse.rse.subsystems.processes.dstore",1310914417360
+stopped,bundle,org.eclipse.rse.subsystems.shells.dstore,2.1.100.v200905272300,"org.eclipse.rse.subsystems.shells.dstore",1310914417360
+stopped,bundle,org.eclipse.rse.connectorservice.dstore,3.1.1.v200909160005,"org.eclipse.rse.connectorservice.dstore",1310914417360
+stopped,bundle,org.eclipse.rse.subsystems.files.local,2.1.101.v200907301400,"org.eclipse.rse.subsystems.files.local",1310914417360
+stopped,bundle,org.eclipse.rse.subsystems.processes.local,2.1.100.v200905272300,"org.eclipse.rse.subsystems.processes.local",1310914417360
+stopped,bundle,org.eclipse.rse.subsystems.shells.local,2.1.100.v200905272300,"org.eclipse.rse.subsystems.shells.local",1310914417360
+stopped,bundle,org.eclipse.rse.connectorservice.local,2.1.100.v200905272300,"org.eclipse.rse.connectorservice.local",1310914417372
+stopped,bundle,org.eclipse.rse.dstore.security,3.0.100.v200905272300,"org.eclipse.rse.dstore.security",1310914417372

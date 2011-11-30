@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1307830712674
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307830714524
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830722666
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.ui.views.log",1307830725784
+started,bundle,org.eclipse.pde.ui,3.5.1.v201001121200,"org.eclipse.pde.ui",1307830725803
+started,bundle,org.eclipse.pde.core,3.5.101.v20100104,"org.eclipse.pde.core",1307830725896
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830726374
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1307830726427
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.rename",1307830726427
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830729762
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830749761
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830751879
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830780806
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830784193
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830788600
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830793570
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830795611
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830795688
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830812612
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307830814099
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307830818040
+error,log,,,"Unable to list instances: Unable to execute HTTP request: No route to host",1307837352756
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307837763163
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307837765098
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1307837768448

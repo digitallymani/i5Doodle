@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.monitor.ui,3.4.1.v20110131-0100-e3x,"org.eclipse.mylyn.monitor.ui",1306008342906
+started,bundle,org.eclipse.mylyn.tasks.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.tasks.ui",1306008342920
+started,bundle,org.eclipse.mylyn.team.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.team.ui",1306008342935
+os,sysinfo,,,"macosx",1306008342939
+arch,sysinfo,,,"x86",1306008342939
+ws,sysinfo,,,"cocoa",1306008342939
+locale,sysinfo,,,"en_US",1306008342939
+processors,sysinfo,,,"2",1306008342939
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1306008342939
+java.runtime.version,sysinfo,,,"1.6.0_24-b07-334-10M3326",1306008342939
+java.specification.name,sysinfo,,,"Java Platform API Specification",1306008342939
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1306008342939
+java.specification.version,sysinfo,,,"1.6",1306008342939
+java.vendor,sysinfo,,,"Apple Inc.",1306008342939
+java.version,sysinfo,,,"1.6.0_24",1306008342939
+java.vm.info,sysinfo,,,"mixed mode",1306008342939
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1306008342939
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1306008342939
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1306008342939
+java.vm.specification.version,sysinfo,,,"1.0",1306008342939
+java.vm.vendor,sysinfo,,,"Apple Inc.",1306008342939
+java.vm.version,sysinfo,,,"19.1-b02-334",1306008342939
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306010904416
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306010960950
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1306010992991

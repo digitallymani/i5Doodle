@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1304882086727
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1304882087215
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1304882088556
+error,log,,,"Unhandled event loop exception",1304882097100
+error,log,,,"Unhandled event loop exception",1304882097115
+error,log,,,"Unhandled event loop exception",1304882097626
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1304882098624
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304882098643
+error,log,,,"Unhandled event loop exception",1304882098730
+error,log,,,"Unhandled event loop exception",1304882099446
+error,log,,,"Unhandled event loop exception",1304882099447
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304882100638
+error,log,,,"Unhandled event loop exception",1304882100686
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1304882101981
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1304882101981
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304882104412
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304882105731
+closed,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304882106347
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1304882108043
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.405.v200901261650,"org.eclipse.jst.ws.axis.consumption.ui",1304882108115
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.306.v200810082309,"org.eclipse.jst.ws.axis.consumption.core",1304882108144
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.103.v200807162242,"org.eclipse.jst.ws.axis2.creation.ui",1304882108213
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.102.v200807232000,"org.eclipse.jst.ws.axis2.consumption.ui",1304882108216
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.105.v200901220134,"org.eclipse.jst.ws.axis2.creation.core",1304882108260
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.104.v200810151442,"org.eclipse.jst.ws.axis2.consumption.core",1304882108325

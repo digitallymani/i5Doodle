@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308446971935
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308446976909
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308446977637
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308446978573
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308446982357
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447093250
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447100552
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447145110
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308447158334
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.cut",1308447159167
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308447171037
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308447171793
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308447174484
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308447176588
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308447176992
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447188591
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447261216
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308447265401
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308447275972
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308447282270
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308447284487
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308447301261
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308447302448
+error,log,,,"Core exception while retrieving the content description",1308447304338
+error,log,,,"Core exception while retrieving the content description",1308447304346

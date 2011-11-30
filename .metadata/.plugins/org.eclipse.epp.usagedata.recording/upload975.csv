@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308624882856
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308624884020
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308624885309
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308624885758
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308624887202
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1308624887848
+error,log,,,"Error in JSDT Core during AST creation",1308624887848
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308624893506
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308624916887
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308624925156
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308624925491
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308624925536
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308624934466
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308624935498
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308625028997
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308625032160
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308625043702
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308625047468
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308625047876
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308625048343
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309128696208
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1309128697269
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309128698371
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309128713317
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309128719263

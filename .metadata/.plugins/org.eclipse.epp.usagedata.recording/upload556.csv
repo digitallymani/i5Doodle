@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Core exception while retrieving the content description",1307827556343
+error,log,,,"Core exception while retrieving the content description",1307827556344
+error,log,,,"Core exception while retrieving the content description",1307827556385
+error,log,,,"Core exception while retrieving the content description",1307827556386
+error,log,,,"Core exception while retrieving the content description",1307827556387
+error,log,,,"Core exception while retrieving the content description",1307827556387
+error,log,,,"Core exception while retrieving the content description",1307827556388
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827558007
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827561027
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1307827561069
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1307827561069
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307827565761
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827566355
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827571566
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827571672
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827571861
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827571892
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827577736
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307827577790
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.103.v200905151848,"org.eclipse.wst.ws.service.policy",1307827580180
+started,bundle,org.eclipse.wst.command.env,1.0.408.v200903110045,"org.eclipse.wst.command.env",1307827580274
+started,bundle,org.eclipse.wst.ws,1.1.103.v200903111822,"org.eclipse.wst.ws",1307827580309
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1307827583410
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307827587862
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307827588154

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Core exception while retrieving the content description",1308518252365
+error,log,,,"Core exception while retrieving the content description",1308518252410
+error,log,,,"Core exception while retrieving the content description",1308518252412
+error,log,,,"Core exception while retrieving the content description",1308518252413
+error,log,,,"Core exception while retrieving the content description",1308518252414
+error,log,,,"Core exception while retrieving the content description",1308518252415
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518254153
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518256521
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1308518256564
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1308518256564
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308518257542
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308518262217
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518262788
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518269655
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308518270737
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1308518273876
+opened,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308518275292
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308518275399
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1308518275919
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308518285831
+closed,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308518285831
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308518287184
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518289580
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518290959
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1308518291013

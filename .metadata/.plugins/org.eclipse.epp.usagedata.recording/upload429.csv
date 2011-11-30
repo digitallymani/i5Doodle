@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Unhandled event loop exception",1306084118368
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1306084118411
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084118433
+error,log,,,"Unhandled event loop exception",1306084118463
+error,log,,,"Unhandled event loop exception",1306084118490
+error,log,,,"Unhandled event loop exception",1306084118701
+error,log,,,"Unhandled event loop exception",1306084118703
+error,log,,,"Unhandled event loop exception",1306084118954
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084120002
+error,log,,,"Unhandled event loop exception",1306084120054
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306084121299
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306084121300
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1306084123954
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306084124278
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306084124457
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306084130145
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306084138256
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084138900
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084140597
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084142339
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084163188
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084168908
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306084420952
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1306084433400
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1306084434362

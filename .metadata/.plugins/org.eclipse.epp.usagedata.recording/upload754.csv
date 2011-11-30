@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308496837571
+error,log,,,"Core exception while retrieving the content description",1308496844645
+error,log,,,"Core exception while retrieving the content description",1308496844653
+error,log,,,"Core exception while retrieving the content description",1308496844654
+error,log,,,"Core exception while retrieving the content description",1308496844655
+error,log,,,"Core exception while retrieving the content description",1308496844897
+error,log,,,"Core exception while retrieving the content description",1308496844898
+error,log,,,"Core exception while retrieving the content description",1308496844898
+error,log,,,"Core exception while retrieving the content description",1308496844899
+error,log,,,"Core exception while retrieving the content description",1308496846283
+error,log,,,"Core exception while retrieving the content description",1308496846284
+error,log,,,"Core exception while retrieving the content description",1308496846317
+error,log,,,"Core exception while retrieving the content description",1308496846319
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1308496847505
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308496852691
+closed,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308496852691
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308496854225
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308496857207
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308496858762
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1308496858853
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1308496858853
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308496859859
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308496860089
+closed,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308496860089
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308496860839

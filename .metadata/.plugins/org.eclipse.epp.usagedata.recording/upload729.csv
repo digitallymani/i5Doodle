@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308192232098
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192233081
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192337384
+error,log,,,"Unexpected runtime error while computing a text hover",1308192343942
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308192364011
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192365532
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192379349
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308192383926
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308192393305
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192393784
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192416929
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192421245
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192445886
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192447897
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192448889
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308192450573
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192451079
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308192483454
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308192485020
+opened,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308192486071
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308192486113
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308192487890
+closed,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308192487890
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308192488995
+opened,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1308192489326

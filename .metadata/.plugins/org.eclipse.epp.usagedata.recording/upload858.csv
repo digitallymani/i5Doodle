@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+ws,sysinfo,,,"cocoa",1308523733444
+locale,sysinfo,,,"en_US",1308523733444
+processors,sysinfo,,,"2",1308523733444
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1308523733444
+java.runtime.version,sysinfo,,,"1.6.0_24-b07-334-10M3326",1308523733444
+java.specification.name,sysinfo,,,"Java Platform API Specification",1308523733444
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1308523733444
+java.specification.version,sysinfo,,,"1.6",1308523733444
+java.vendor,sysinfo,,,"Apple Inc.",1308523733444
+java.version,sysinfo,,,"1.6.0_24",1308523733444
+java.vm.info,sysinfo,,,"mixed mode",1308523733444
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1308523733444
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1308523733444
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1308523733444
+java.vm.specification.version,sysinfo,,,"1.0",1308523733444
+java.vm.vendor,sysinfo,,,"Apple Inc.",1308523733444
+java.vm.version,sysinfo,,,"19.1-b02-334",1308523733444
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308523733816
+started,bundle,org.eclipse.jst.servlet.ui,1.1.301.v200908101600,"org.eclipse.jst.servlet.ui",1308523734226
+started,bundle,com.android.ide.eclipse.ddms,10.0.1.v201103111512-110841,"com.android.ide.eclipse.ddms",1308523734287
+started,bundle,com.android.ide.eclipse.adt,10.0.1.v201103111512-110841,"com.android.ide.eclipse.adt",1308523734355
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523735080
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523741425
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308523741442
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308523747144

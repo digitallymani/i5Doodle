@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,,,"com.amazonaws.eclipse.ec2.perspective",1307291346275
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291346700
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307291350520
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291406542
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307291449874
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291466796
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291526456
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291586947
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307291603382
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307291607106
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307291607117
+closed,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307291607121
+error,log,,,"Unable to query list of AMIs: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291607308
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.301.v201001252130,"org.eclipse.jst.j2ee.J2EEPerspective",1307291612449
+closed,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307291612480
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.window.closePerspective",1307291612482
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307291613358
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307291643868
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307292028883
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307292034395
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307292866315
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307292890470
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307293118687
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307293160822
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307293162444

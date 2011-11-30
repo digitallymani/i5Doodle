@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307298146217
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.window.closePerspective",1307298146219
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307298150564
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307298343581
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307298349198
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307298349211
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.perspectives.showPerspective",1307298349219
+executed,command,,,"com.amazonaws.eclipse.ec2.perspective",1307298349219
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298349602
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307298353585
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307298353974
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298410457
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298469583
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298529456
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298589532
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298649440
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298709520
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298770085
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298829644
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298889868
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307298949441
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299009720
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299069423
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299129730
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299192453

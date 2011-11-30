@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,com.android.ide.eclipse.adt,10.0.1.v201103111512-110841,"com.android.ide.eclipse.adt.refactoring.extract.string",1307291178515
+started,bundle,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui",1307291188339
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools",1307291188402
+started,bundle,org.eclipse.ui.browser,3.2.301.v20091215_35x,"org.eclipse.ui.browser",1307291188463
+started,bundle,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2",1307291236996
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307291237218
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307291237236
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.perspectives.showPerspective",1307291237248
+executed,command,,,"com.amazonaws.eclipse.ec2.perspective",1307291237248
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291238541
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307291242019
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307291242085
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307291242172
+closed,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307291242177
+error,log,,,"Unable to query list of AMIs: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291242305
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307291243257
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307291243326
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307291243419
+closed,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307291243447
+error,log,,,"Unable to refresh EBS volumes: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291243485
+error,log,,,"Unable to refresh snapshots: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291243632
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307291244548
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307291244606
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.views.SecurityGroupView",1307291244695
+closed,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307291244733

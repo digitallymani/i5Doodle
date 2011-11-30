@@ -1,0 +1,17 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.datatools.sqltools.editor.core.ui,1.0.0.v201001150815,"org.eclipse.datatools.sqltools.editor.core.ui",1306007944117
+stopped,bundle,org.eclipse.datatools.sqltools.tabledataeditor,1.0.0.v200906022302,"org.eclipse.datatools.sqltools.tabledataeditor",1306007944234
+stopped,bundle,org.eclipse.datatools.connectivity.sqm.core.ui,1.1.100.v200910270525,"org.eclipse.datatools.connectivity.sqm.core.ui",1306007944271
+stopped,bundle,org.eclipse.datatools.connectivity.ui.dse,1.1.3.v201001270323,"org.eclipse.datatools.connectivity.ui.dse",1306007944333
+stopped,bundle,org.eclipse.pde.ua.ui,1.0.0.v20090511,"org.eclipse.pde.ua.ui",1306007944487
+stopped,bundle,org.eclipse.datatools.connectivity.oda.template.ui,3.2.0.v200906020553,"org.eclipse.datatools.connectivity.oda.template.ui",1306007944555
+stopped,bundle,org.eclipse.pde.api.tools.ui,1.0.101.v20090820,"org.eclipse.pde.api.tools.ui",1306007944674
+stopped,bundle,org.eclipse.pde.ds.ui,1.0.0.v20100209-maintenance,"org.eclipse.pde.ds.ui",1306007944791
+stopped,bundle,org.eclipse.pde.runtime,3.4.100.v20090731,"org.eclipse.pde.runtime",1306007944912
+stopped,bundle,org.eclipse.pde.ui.templates,3.4.100.v20090527,"org.eclipse.pde.ui.templates",1306007945010
+stopped,bundle,org.eclipse.pde.ui,3.5.1.v201001121200,"org.eclipse.pde.ui",1306007945010
+stopped,bundle,org.eclipse.ui.cheatsheets,3.3.200.v20090526,"org.eclipse.ui.cheatsheets",1306007945129
+stopped,bundle,org.eclipse.help.ui,3.4.1.v20090819_35x,"org.eclipse.help.ui",1306007945198
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1306007945198
+stopped,bundle,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2",1306007945198
+stopped,bundle,org.eclipse.ui.intro.universal,3.2.300.v20090526,"org.eclipse.ui.intro.universal",1306007945330

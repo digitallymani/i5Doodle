@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308508916874
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308508941588
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308508944584
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308508945054
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308508954247
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308508961621
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308508974359
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308508977173
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308508977541
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308508979280
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308509002872
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1308509006357
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308509006459
+error,log,,,"Problems encountered during text search.",1308509006488
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308509006833
+executed,command,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.openFileSearchPage",1308509006890
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308509007536
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308509011208
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1308509012305
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308509014418
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1308509014913
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308509015360
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1308509015778
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308509021557
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308509029535

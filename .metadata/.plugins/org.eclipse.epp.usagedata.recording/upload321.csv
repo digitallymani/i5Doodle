@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680302458
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680303885
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680308808
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680309815
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1305680313732
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680314163
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680334205
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1305680336671
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680342210
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680353348
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1305680359221
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1305680363632
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1305680398392
+error,log,,,"Unhandled event loop exception",1305680411927
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1305680412022
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680412138
+error,log,,,"Unhandled event loop exception",1305680412179
+error,log,,,"Unhandled event loop exception",1305680412204
+error,log,,,"Unhandled event loop exception",1305680412361
+error,log,,,"Unhandled event loop exception",1305680413579
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1305680414171
+error,log,,,"Unhandled event loop exception",1305680414210
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1305680415572
+error,log,,,"Unhandled event loop exception",1305680415586
+error,log,,,"Unhandled event loop exception",1305680416124

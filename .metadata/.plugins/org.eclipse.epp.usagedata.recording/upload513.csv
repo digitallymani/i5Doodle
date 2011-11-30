@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299200491
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299205737
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299206646
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299215535
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299217455
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.window.customizePerspective",1307299217483
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307299219636
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307299219642
+error,log,,,"Unable to query list of AMIs: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299219754
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307299220373
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.ElasticBlockStorageView",1307299220414
+error,log,,,"Unable to refresh EBS volumes: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299220443
+error,log,,,"Unable to refresh snapshots: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299220543
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307299221146
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307299227733
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299235761
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299279295
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299283886
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307299336869
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299342849
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299346840
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307299364498
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307299376433
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299379887
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307299403622

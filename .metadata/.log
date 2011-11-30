@@ -1,0 +1,1797 @@
+!SESSION 2011-06-29 19:55:45.914 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+
+This is a continuation of log file /Users/manigandan_g/Sites/i5Doodle/.metadata/.bak_0.log
+Created Time: 2011-06-29 19:55:55.681
+!SESSION 2011-06-29 19:55:45.914 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-06-29 19:55:55.682
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-29 19:55:59.272
+!MESSAGE NLS unused message: Undefined in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-29 19:55:59.273
+!MESSAGE NLS unused message: AlternateEntryPointDetails_Locale_Resource_Group_Label in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.core.net 1 0 2011-06-29 19:56:15.215
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-07-03 08:48:49.347 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-03 08:49:02.239
+!MESSAGE NLS unused message: Undefined in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-03 08:49:02.257
+!MESSAGE NLS unused message: AlternateEntryPointDetails_Locale_Resource_Group_Label in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-03 08:49:19.813
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.wst.jsdt.ui 2 0 2011-07-03 09:03:46.189
+!MESSAGE The 'org.eclipse.wst.jsdt.ui.JavaNoTypeCompletionProposalComputer' proposal computer from the 'org.eclipse.wst.jsdt.ui' plug-in did not complete normally. The extension has thrown a runtime exception.
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.internal.compiler.lookup.MissingBinaryTypeBinding cannot be cast to org.eclipse.wst.jsdt.internal.compiler.lookup.ProblemMethodBinding
+	at org.eclipse.wst.jsdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:1773)
+	at org.eclipse.wst.jsdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:2632)
+	at org.eclipse.wst.jsdt.internal.core.Openable.codeComplete(Openable.java:135)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:306)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:299)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaCompletionProposalComputer.internalComputeCompletionProposals(JavaCompletionProposalComputer.java:174)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaCompletionProposalComputer.computeCompletionProposals(JavaCompletionProposalComputer.java:142)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:298)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:258)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:244)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:213)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:1832)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:556)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$16(CompletionProposalPopup.java:553)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:488)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:482)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:376)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-07-03 09:56:52.828
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-07-03 09:56:52.828
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@bd39c4),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1a3e686,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@46d485)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dd108)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@bd39c4),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@1a3e686,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@46d485)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dd108)),sourcePriority=1064961)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-07-03 22:29:04.671
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:198)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getHoverInfo(AbstractJavaEditorTextHover.java:116)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 2 0 2011-07-04 10:24:17.676
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.ui.text.java.MethodProposalInfo.resolveMember(MethodProposalInfo.java:81)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.MemberProposalInfo.getJavaElement(MemberProposalInfo.java:55)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:70)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:56)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:513)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-04 10:25:33.839
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: -143165520
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:221)
+	at org.eclipse.swt.custom.StyledText.calculateTopIndex(StyledText.java:1626)
+	at org.eclipse.swt.custom.StyledText.scrollVertical(StyledText.java:7371)
+	at org.eclipse.swt.custom.StyledText.showLocation(StyledText.java:9343)
+	at org.eclipse.swt.custom.StyledText.showCaret(StyledText.java:9371)
+	at org.eclipse.swt.custom.StyledText.doLineDown(StyledText.java:2600)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6327)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5821)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5842)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5542)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1287)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1283)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:433)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:906)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4741)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:56)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:516)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4655)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:202)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:1753)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:1825)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4713)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:4352)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3097)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-04 10:38:13.618
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: -143165520
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:221)
+	at org.eclipse.swt.custom.StyledText.calculateTopIndex(StyledText.java:1626)
+	at org.eclipse.swt.custom.StyledText.scrollVertical(StyledText.java:7371)
+	at org.eclipse.swt.custom.StyledText.showLocation(StyledText.java:9343)
+	at org.eclipse.swt.custom.StyledText.showCaret(StyledText.java:9371)
+	at org.eclipse.swt.custom.StyledText.doMouseLocationChange(StyledText.java:2801)
+	at org.eclipse.swt.custom.StyledText.handleMouseMove(StyledText.java:5930)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5546)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-04 10:38:13.643
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: -31
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:221)
+	at org.eclipse.swt.custom.StyledText.calculateTopIndex(StyledText.java:1626)
+	at org.eclipse.swt.custom.StyledText.scrollVertical(StyledText.java:7371)
+	at org.eclipse.swt.custom.StyledText.showLocation(StyledText.java:9348)
+	at org.eclipse.swt.custom.StyledText.showCaret(StyledText.java:9371)
+	at org.eclipse.swt.custom.StyledText.doMouseLocationChange(StyledText.java:2801)
+	at org.eclipse.swt.custom.StyledText.handleMouseMove(StyledText.java:5930)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5546)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-04 10:38:14.151
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Index out of bounds)
+	at org.eclipse.swt.SWT.error(SWT.java:3884)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3405)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3102)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:3865)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.SWT.error(SWT.java:3770)
+	at org.eclipse.swt.custom.StyledText.getOffsetAtLine(StyledText.java:4281)
+	at org.eclipse.jface.text.JFaceTextUtil.getPartialTopIndex(JFaceTextUtil.java:103)
+	at org.eclipse.jface.text.JFaceTextUtil.getPartialTopIndex(JFaceTextUtil.java:151)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.getInclusiveTopIndexStartOffset(AnnotationRulerColumn.java:556)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:707)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:532)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:811)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn$6.run(AnnotationRulerColumn.java:798)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 22 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-04 10:38:15.516
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: -31
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:221)
+	at org.eclipse.swt.custom.StyledText.resetCache(StyledText.java:7248)
+	at org.eclipse.swt.custom.StyledText.redraw(StyledText.java:6835)
+	at org.eclipse.jface.text.CursorLinePainter.drawHighlightLine(CursorLinePainter.java:179)
+	at org.eclipse.jface.text.CursorLinePainter.paint(CursorLinePainter.java:240)
+	at org.eclipse.jface.text.PaintManager.paint(PaintManager.java:298)
+	at org.eclipse.jface.text.PaintManager.selectionChanged(PaintManager.java:337)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:162)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:160)
+	at org.eclipse.jface.text.TextViewer.fireSelectionChanged(TextViewer.java:2714)
+	at org.eclipse.jface.text.TextViewer.selectionChanged(TextViewer.java:2693)
+	at org.eclipse.jface.text.TextViewer$4.widgetSelected(TextViewer.java:1818)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.custom.StyledText.sendSelectionEvent(StyledText.java:7486)
+	at org.eclipse.swt.custom.StyledText.clearSelection(StyledText.java:1706)
+	at org.eclipse.swt.custom.StyledText.doMouseLocationChange(StyledText.java:2805)
+	at org.eclipse.swt.custom.StyledText.handleMouseDown(StyledText.java:5891)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5544)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-04 10:38:15.661
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:3865)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.SWT.error(SWT.java:3770)
+	at org.eclipse.swt.custom.StyledText.getOffsetAtLine(StyledText.java:4281)
+	at org.eclipse.jface.text.JFaceTextUtil.getPartialTopIndex(JFaceTextUtil.java:103)
+	at org.eclipse.jface.text.JFaceTextUtil.getPartialTopIndex(JFaceTextUtil.java:151)
+	at org.eclipse.jface.text.JFaceTextUtil.getVisibleModelLines(JFaceTextUtil.java:176)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:688)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.access$10(LineNumberRulerColumn.java:662)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn$5.paintControl(LineNumberRulerColumn.java:606)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:217)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1079)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:158)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:589)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4635)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:4188)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:4386)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:75)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3094)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-04 10:38:17.434
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:3865)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.SWT.error(SWT.java:3770)
+	at org.eclipse.swt.custom.StyledText.getOffsetAtLine(StyledText.java:4281)
+	at org.eclipse.jface.text.JFaceTextUtil.getPartialTopIndex(JFaceTextUtil.java:103)
+	at org.eclipse.jface.text.JFaceTextUtil.getPartialTopIndex(JFaceTextUtil.java:151)
+	at org.eclipse.jface.text.JFaceTextUtil.getVisibleModelLines(JFaceTextUtil.java:176)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:688)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.access$10(LineNumberRulerColumn.java:662)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn$5.paintControl(LineNumberRulerColumn.java:606)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:217)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1079)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:158)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:589)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4635)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:4188)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:4386)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:75)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3094)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SESSION 2011-07-05 20:58:12.082 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-07-05 20:58:30.349
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-05 20:58:33.390
+!MESSAGE NLS unused message: Undefined in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-05 20:58:33.391
+!MESSAGE NLS unused message: AlternateEntryPointDetails_Locale_Resource_Group_Label in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-05 20:58:48.084
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 21:56:43.374
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 21:56:43.411
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 21:56:52.193
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 21:56:52.193
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 21:56:54.711
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 21:56:54.711
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 21:58:14.871
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 21:58:14.872
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-07-14 21:58:41.716
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:198)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getHoverInfo(AbstractJavaEditorTextHover.java:116)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:00:51.904
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:00:51.905
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:00:53.485
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:00:53.486
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-07-14 22:01:01.207
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:198)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getHoverInfo(AbstractJavaEditorTextHover.java:116)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-07-14 22:01:31.260
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:198)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getHoverInfo(AbstractJavaEditorTextHover.java:116)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-07-14 22:05:07.664
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:198)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getHoverInfo(AbstractJavaEditorTextHover.java:116)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:21.966
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:21.967
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:23.819
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:23.820
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:35.312
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:35.313
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:36.779
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:36.779
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:37.909
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:37.909
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:39.767
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo(NLSStringHover.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:39.768
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo(NLSStringHover.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:45.125
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo(NLSStringHover.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:45.126
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo(NLSStringHover.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:45.181
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:45.182
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:07:52.848
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:07:52.848
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:28:00.301
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:28:00.301
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:28:04.538
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:28:04.539
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:28:05.682
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:28:05.683
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:28:05.694
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo(NLSStringHover.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:28:05.723
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo(NLSStringHover.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:99)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-14 22:28:05.876
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.getClipboardData(ClipboardOperationAction.java:389)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.doCutCopyWithImportsOperation(ClipboardOperationAction.java:315)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.internalDoOperation(ClipboardOperationAction.java:271)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction$1.run(ClipboardOperationAction.java:240)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.run(ClipboardOperationAction.java:238)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:470)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:880)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:569)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:510)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:125)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:965)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3542)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1287)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1283)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:433)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:906)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4741)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:56)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:516)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4655)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:202)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:1753)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:1825)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4713)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:4352)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3097)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-14 22:28:05.877
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.getClipboardData(ClipboardOperationAction.java:389)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.doCutCopyWithImportsOperation(ClipboardOperationAction.java:315)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.internalDoOperation(ClipboardOperationAction.java:271)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction$1.run(ClipboardOperationAction.java:240)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ClipboardOperationAction.run(ClipboardOperationAction.java:238)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:470)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:880)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:569)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:510)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:125)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:965)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3542)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1287)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1283)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:433)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:906)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4741)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:56)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:516)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4655)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:202)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:1753)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:1825)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4713)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:4352)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3097)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 2 2011-07-15 21:13:13.233
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.jsdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2011-07-15 21:13:13.234
+!MESSAGE Error in JSDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.ArrayBinding.getExactMethod(ArrayBinding.java:290)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.findExactMethod(Scope.java:809)
+	at org.eclipse.wst.jsdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2479)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:372)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.Expression.resolve(Expression.java:745)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:400)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:180)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:378)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:426)
+	at org.eclipse.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:402)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:859)
+	at org.eclipse.wst.jsdt.core.dom.JavaScriptUnitResolver.resolve(JavaScriptUnitResolver.java:527)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:862)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:647)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:581)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:574)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:509)
+	at org.eclipse.wst.jsdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:497)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:150)
+	at org.eclipse.wst.jsdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-07-17 09:37:24.302
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-07-17 09:37:24.302
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@17eb067),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@f33122,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@16aa365)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13968f1)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@17eb067),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@f33122,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@16aa365)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13968f1)),sourcePriority=1064961)
+!SESSION 2011-07-18 19:57:59.719 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -keyring /Users/manigandan_g/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-18 19:58:13.046
+!MESSAGE NLS unused message: Undefined in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-18 19:58:13.058
+!MESSAGE NLS unused message: AlternateEntryPointDetails_Locale_Resource_Group_Label in: net.rim.ejde.A.I.messages
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-18 19:58:31.977
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

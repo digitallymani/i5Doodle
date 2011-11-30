@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Unable to refresh security groups: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307291244802
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.views.SecurityGroupView",1307291245851
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307291245901
+closed,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.views.SecurityGroupView",1307291245911
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307291248698
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307291290273
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.301.v201001252130,"org.eclipse.jst.j2ee.J2EEPerspective",1307291296123
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307291299456
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.perspectives.showPerspective",1307291304904
+executed,command,,,"com.amazonaws.eclipse.ec2.perspective",1307291304904
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.perspectives.showPerspective",1307291316527
+executed,command,,,"com.amazonaws.eclipse.ec2.perspective",1307291316527
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1307291319775
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.navigate.collapseAll",1307291319888
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.navigate.linkWithEditor",1307291320820
+started,bundle,org.eclipse.jst.servlet.ui,1.1.301.v200908101600,"org.eclipse.jst.servlet.ui",1307291322030
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.301.v201001252130,"org.eclipse.jst.j2ee.J2EEPerspective",1307291328588
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307291333595
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.301.v201001252130,"org.eclipse.jst.j2ee.J2EEPerspective",1307291336066
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307291341138
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.301.v201001252130,"org.eclipse.jst.j2ee.J2EEPerspective",1307291342746
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.window.closePerspective",1307291342775
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307291346254
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307291346267
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.perspectives.showPerspective",1307291346275

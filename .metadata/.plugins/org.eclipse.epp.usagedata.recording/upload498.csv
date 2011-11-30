@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1307291151344
+stopped,bundle,org.eclipse.update.ui,3.2.201.R35x_v20090813,"org.eclipse.update.ui",1307291151347
+stopped,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1307291151347
+stopped,bundle,com.amazonaws.eclipse.core,1.0.5.v201101181646,"com.amazonaws.eclipse.core",1307291151347
+stopped,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1307291151362
+stopped,bundle,org.eclipse.ui.navigator,3.4.2.M20100120-0800,"org.eclipse.ui.navigator",1307291151362
+stopped,bundle,org.eclipse.ui.net,1.2.1.r35x_20090812-1200,"org.eclipse.ui.net",1307291151362
+stopped,bundle,org.eclipse.ui.presentations.r21,3.2.100.M20091015-0930,"org.eclipse.ui.presentations.r21",1307291151362
+stopped,bundle,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views",1307291151362
+stopped,bundle,org.eclipse.ui.workbench.texteditor,3.5.1.r352_v20100105,"org.eclipse.ui.workbench.texteditor",1307291151362
+stopped,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,"org.eclipse.wst.internet.cache",1307291151362
+stopped,bundle,net.rim.ejde.componentpack4.5.0,4.5.0.28,"net.rim.ejde.componentpack4.5.0",1307291151362
+stopped,bundle,net.rim.ejde.componentpack4.6.0,4.6.0.23,"net.rim.ejde.componentpack4.6.0",1307291151362

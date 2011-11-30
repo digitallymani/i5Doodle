@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308522505218
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308522505645
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308522518440
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308522564777
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308522579897
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308522983438
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308522992007
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308522994112
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523033832
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308523049742
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523057140
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523515658
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308523552633
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308523569106
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523569578
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523592758
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523593717
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523632723
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523635456
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308523658003
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308523661240
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308523661570
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308523661627
+error,log,,,"Unhandled event loop exception",1308523670470
+error,log,,,"Unhandled event loop exception",1308523671324

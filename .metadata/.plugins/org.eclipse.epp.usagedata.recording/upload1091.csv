@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309789540309
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309789540380
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309789540380
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309789542555
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309789560576
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1309789564770
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309789565074
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1309789565119
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309789570364
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309789571386
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309790034689
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309790037148
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309790250408
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309790262918
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1309790270234
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309790272557
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309790291624
+error,log,,,"Unhandled event loop exception",1309790293619
+error,log,,,"Unhandled event loop exception",1309790293643
+error,log,,,"Unhandled event loop exception",1309790294152
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1309790295517
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309790295620
+error,log,,,"Unhandled event loop exception",1309790295662
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1309790297401
+error,log,,,"Unhandled event loop exception",1309790297435

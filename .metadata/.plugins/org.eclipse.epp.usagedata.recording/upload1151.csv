@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1310695656779
+error,log,,,"Error in JSDT Core during AST creation",1310695656828
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1310695656935
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310695657225
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1310695657909
+error,log,,,"Error in JSDT Core during AST creation",1310695657910
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1310695659768
+error,log,,,"Error in JSDT Core during AST creation",1310695659814
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695660784
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695663313
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1310695665126
+error,log,,,"Error in JSDT Core during AST creation",1310695665167
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1310695665182
+error,log,,,"Error in JSDT Core during AST creation",1310695665182
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310695665757
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310695671904
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695672582
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1310695672848
+error,log,,,"Error in JSDT Core during AST creation",1310695672901
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1310695713906
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1310695716125
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1310695721507
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1310695724427
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310695724864
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1310695744011

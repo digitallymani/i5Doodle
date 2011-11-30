@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080781145
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080786331
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1306080791752
+error,log,,,"Error in JSDT Core during AST creation",1306080791772
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306080800585
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080836714
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080841419
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080854406
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080856863
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080886160
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080892360
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080917412
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080956229
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1306080960401
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1306080961511
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080962039
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080965241
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080965889
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306080967954
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080968526
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080990467
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080993381
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306080995616
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306081001749
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306081004865

@@ -1,0 +1,357 @@
+var drawingtoolspopup;
+var selecteddrawingtool;
+var bgcolorvalue;
+var red=0,green=0,blue=0;
+function fnAddLayers(){
+	
+	var drawingsurfacejson={
+			 "id":"drawingsurface" + (window.ARRAYOFDRAWINGSURFACES.length+1),
+			 "title":"",
+			 "category":"i5CONTENT",
+			 "type":"i5DrawingSurface",
+			 "background":"#ffffff",
+			// "zindex":400,
+			 "persist":true,
+			 "parent":"doodlewindow",
+		};
+	var drawingsurface=new i5DrawingSurface();
+	drawingsurface.fnInitFromJson(drawingsurfacejson);
+	
+	
+	paramtypejson={
+			"id":"layerreference" + drawingsurface.id,
+			"group":"drawingsurfaces",
+			"type": "i5RadioButton",
+			"category":"i5UI",
+			"label":drawingsurface.id,
+			"radiobuttonstyle":"TRADITIONAL",
+			//"zindex":1000,
+			"value":drawingsurface.id,
+			"touchend":"fnSelectDrawingSurface"
+	};
+	
+	window.layertableview=fnGetObject("layernames");
+	window.layertableview.fnCreateItem(paramtypejson);	
+}
+
+function fnSelectDrawingSurface(paramObject){
+	
+	window.SELECTEDOBJECT=fnGetObject(paramObject.value);
+	//fnDisplayToolsPopup();
+	
+}
+
+function fnAlert(){
+	alert("clicked");
+}
+function fnPencilButton_Clicked(paramValue){
+
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+	selecteddrawingtool="i5PENCIL";
+	var drawingsurfaceObject=window.SELECTEDOBJECT;
+	window.SELECTEDOBJECT.drawingtool=selecteddrawingtool;
+//	window.SELECTEDOBJECT.fnPrepareToDraw();
+	
+	}
+}
+
+function fnRectangleButton_Clicked(paramValue){
+
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+		
+	selecteddrawingtool="i5RECTANGLE";
+	var drawingsurfaceObject=window.SELECTEDOBJECT;
+	window.SELECTEDOBJECT.drawingtool=selecteddrawingtool;
+	//window.SELECTEDOBJECT.fnPrepareToDraw();
+
+	}
+}
+function fnLineButton_Clicked(paramValue){
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+
+	selecteddrawingtool="i5LINE";
+	var drawingsurfaceObject=window.SELECTEDOBJECT;
+	window.SELECTEDOBJECT.drawingtool=selecteddrawingtool;
+	//window.SELECTEDOBJECT.fnPrepareToDraw();
+	}
+}
+
+function fnEraserButton_Clicked(paramValue){
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+
+	selecteddrawingtool="i5PENCIL";
+	window.SELECTEDOBJECT.drawingtoolcolor="#FFFFFF";
+	window.SELECTEDOBJECT.drawingtoolwidth=5;
+	var drawingsurfaceObject=window.SELECTEDOBJECT;
+	window.SELECTEDOBJECT.drawingtool=selecteddrawingtool;
+	//window.SELECTEDOBJECT.fnPrepareToDraw();
+	}
+}
+
+
+function fnDisplayColorPickerPopup(){
+
+	//if(colorpickerpopup)
+		//return;
+	
+
+	
+	var colorpickerpopupjson={
+			 "id":"colorpickerpopup",
+			 "title":"Color Picker",
+			 "type":"i5Popup",
+			 "popupstyle":"CHROME",
+			 "category":"i5UI",
+			 "left":"20px",
+			 "top":"20px",
+			 "width":"200px",
+			 "height":"200px",
+			 "draggable":false,
+			 "closebutton":true,
+			 "bordercolor":"grey",
+			 "borderwidth":2,
+			 "borderstyle":"solid",
+			 "background":"#ffffff",
+			 "zindex":500,
+			 "parent":"doodlewindow",
+		     "onclosepopup":"fnCloseColorPopup",
+             "popupuimetaarray":[
+                                 {
+									 "id":"redrange",
+									 "type":"i5Range",
+									 "style":"TRADITIONAL",
+									 "category":"i5UI",
+									 "label":"Red",
+									 "left":"5px",
+									 "top":"30px",
+									 "width":"50px",
+									 "height":"25px",
+									 "draggable":false,
+									 "min":0,
+									 "max":255,
+									 "zindex":500,
+									 "touchend":"fnRedRange_Click",
+									 "parent":"colorpickerpopup",
+                                 	},
+									{
+										 "id":"rednsjson",
+										 "type":"i5NumberSpinner",
+										 "numberspinnerstyle":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"",
+										 "left":"140px",
+										 "top":"43px",
+										 "width":"50px",
+										 "height":"20px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnRedNS_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"greenrange",
+										 "type":"i5Range",
+										 "style":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"Green",
+										 "left":"5px",
+										 "top":"80px",
+										 "width":"50px",
+										 "height":"25px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnGreenRange_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"greennsjson",
+										 "type":"i5NumberSpinner",
+										 "numberspinnerstyle":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"",
+										 "left":"140px",
+										 "top":"93px",
+										 "width":"50px",
+										 "height":"20px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnGreenNS_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"bluerange",
+										 "type":"i5Range",
+										 "style":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"Blue",
+										 "left":"5px",
+										 "top":"130px",
+										 "width":"50px",
+										 "height":"25px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnBlueRange_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"bluensjson",
+										 "type":"i5NumberSpinner",
+										 "numberspinnerstyle":"TRADITIONAL",
+										 "category":"i5UI",
+										 "label":"",
+										 "left":"140px",
+										 "top":"143px",
+										 "width":"50px",
+										 "height":"20px",
+										 "draggable":false,
+										 "min":0,
+										 "max":255,
+										 "zindex":500,
+										 "touchend":"fnBlueNS_Click",
+										 "parent":"colorpickerpopup",
+									},
+									{
+										 "id":"bgcolorvalue",
+										 "type":"i5Background",
+										 "style":"TRADITIONAL",
+										 "category":"i5UI",
+										 "left":"5px",
+										 "top":"170px",
+										 "width":"100px",
+										 "height":"20px",
+										 "draggable":false,
+										 "zindex":500,
+										 "parent":"colorpickerpopup",
+									},
+									],
+	};
+	
+	
+	colorpickerpopup=new i5Popup();
+	colorpickerpopup.fnInitFromJson(colorpickerpopupjson);
+
+}
+
+function fnRedRange_Click(paramObject){
+	red=paramObject.inputTag.value;
+	var tempRGB="RGB(" + red +"," + green + "," + blue + ")";
+	var tempNSObject=window.fnGetObject("rednsjson");
+	tempNSObject.fnSetValue(red);
+	
+	bgcolorvalue=fnGetObject("bgcolorvalue");
+	bgcolorvalue.fnSetBackgroundColor(tempRGB);
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+	window.SELECTEDOBJECT.drawingtoolcolor=tempRGB;
+	}
+}
+
+function fnGreenRange_Click(paramObject){
+	green=paramObject.inputTag.value;
+	var tempRGB="RGB(" + red +"," + green + "," + blue + ")";
+	
+	var tempNSObject=window.fnGetObject("greennsjson");
+	tempNSObject.fnSetValue(green);
+
+	bgcolorvalue=fnGetObject("bgcolorvalue");
+	bgcolorvalue.fnSetBackgroundColor(tempRGB);
+	
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+		window.SELECTEDOBJECT.drawingtoolcolor=tempRGB;
+		}
+}
+function fnBlueRange_Click(paramObject){
+	blue=paramObject.inputTag.value;
+	
+	var tempRGB="RGB(" + red +"," + green + "," + blue + ")";
+	
+	var tempNSObject=window.fnGetObject("bluensjson");
+	tempNSObject.fnSetValue(blue);
+
+	
+	bgcolorvalue=fnGetObject("bgcolorvalue");
+	bgcolorvalue.fnSetBackgroundColor(tempRGB);
+		
+	
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+		window.SELECTEDOBJECT.drawingtoolcolor=tempRGB;
+		}
+}
+
+function fnBlueNS_Click(paramObject){
+	
+	blue=paramObject.inputTag.value;
+	
+	var tempRGB="RGB(" + red +"," + green + "," + blue + ")";
+	
+	var tempNSObject=window.fnGetObject("bluerange");
+	tempNSObject.fnSetValue(blue);
+
+	
+	bgcolorvalue=fnGetObject("bgcolorvalue");
+	bgcolorvalue.fnSetBackgroundColor(tempRGB);
+		
+	
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+		window.SELECTEDOBJECT.drawingtoolcolor=tempRGB;
+		}
+
+}
+
+function fnRedNS_Click(paramObject){
+	red=paramObject.inputTag.value;
+	
+	var tempRGB="RGB(" + red +"," + green + "," + blue + ")";
+	
+	var tempNSObject=window.fnGetObject("redrange");
+	tempNSObject.fnSetValue(red);
+
+	
+	bgcolorvalue=fnGetObject("bgcolorvalue");
+	bgcolorvalue.fnSetBackgroundColor(tempRGB);
+		
+	
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+		window.SELECTEDOBJECT.drawingtoolcolor=tempRGB;
+		}
+
+}
+
+function fnGreenNS_Click(paramObject){
+	
+	green=paramObject.inputTag.value;
+	
+	var tempRGB="RGB(" + red +"," + green + "," + blue + ")";
+	
+	var tempNSObject=window.fnGetObject("greenrange");
+	tempNSObject.fnSetValue(green);
+
+	
+	bgcolorvalue=fnGetObject("bgcolorvalue");
+	bgcolorvalue.fnSetBackgroundColor(tempRGB);
+		
+	
+	
+	if ((window.SELECTEDOBJECT) && (window.SELECTEDOBJECT.type=="i5DrawingSurface")){		
+		window.SELECTEDOBJECT.drawingtoolcolor=tempRGB;
+		}
+
+}
+
+function fnCloseLayersPopup(paramObject){
+	window.layerspopup=null;
+}

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307308702205
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307308704670
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307309707818
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307309711308
+activated,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307309719526
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307309724486
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307309725362
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307309727170
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307317875482
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307317877041
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307318634529
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307318635766
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307318781209
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307318784244
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307321170315
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307325215231
+error,log,,,"Unable to list instances: Request has expired. Timestamp date is 2011-06-06T02:27:32.306Z",1307400165299
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307499738386
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307583428809
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307599774880
+error,log,,,"Unable to list instances: Unable to execute HTTP request: us-east-1.ec2.amazonaws.com",1307656613352
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307758917334
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1307758917614
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307758918174
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307758920819

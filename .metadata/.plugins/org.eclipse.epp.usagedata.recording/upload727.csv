@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308191624175
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191624652
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191638964
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.cut",1308191645633
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191647957
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191648946
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191650539
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191692329
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191693462
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191784177
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191789911
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191791703
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191794226
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191797203
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191814867
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191865364
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191910297
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191911321
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308191916385
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191917438
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191936280
+error,log,,,"Unexpected runtime error while computing a text hover",1308191943901
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191944089
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308191983740
+no handler,command,org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples,,"org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn",1308191986446

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+processors,sysinfo,,,"2",1304475609522
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1304475609522
+java.runtime.version,sysinfo,,,"1.6.0_24-b07-334-10M3326",1304475609522
+java.specification.name,sysinfo,,,"Java Platform API Specification",1304475609522
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1304475609522
+java.specification.version,sysinfo,,,"1.6",1304475609522
+java.vendor,sysinfo,,,"Apple Inc.",1304475609522
+java.version,sysinfo,,,"1.6.0_24",1304475609522
+java.vm.info,sysinfo,,,"mixed mode",1304475609522
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1304475609522
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1304475609522
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1304475609522
+java.vm.specification.version,sysinfo,,,"1.0",1304475609522
+java.vm.vendor,sysinfo,,,"Apple Inc.",1304475609522
+java.vm.version,sysinfo,,,"19.1-b02-334",1304475609522
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1304475613949
+started,bundle,org.eclipse.jst.servlet.ui,1.1.301.v200908101600,"org.eclipse.jst.servlet.ui",1304475616308
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475618264
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475622488
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475622532
+error,log,,,"Importing Java Enterprise Edition artifacts ...",1304475647222
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475650333
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475652768
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475658033
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475659420

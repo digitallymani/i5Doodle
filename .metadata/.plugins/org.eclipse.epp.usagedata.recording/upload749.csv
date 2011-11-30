@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Core exception while retrieving the content description",1308447304347
+error,log,,,"Core exception while retrieving the content description",1308447304367
+error,log,,,"Core exception while retrieving the content description",1308447304368
+error,log,,,"Core exception while retrieving the content description",1308447304399
+error,log,,,"Core exception while retrieving the content description",1308447304401
+error,log,,,"Core exception while retrieving the content description",1308447305111
+error,log,,,"Core exception while retrieving the content description",1308447305112
+error,log,,,"Core exception while retrieving the content description",1308447305149
+error,log,,,"Core exception while retrieving the content description",1308447305150
+error,log,,,"Core exception while retrieving the content description",1308447306162
+error,log,,,"Core exception while retrieving the content description",1308447306163
+error,log,,,"Core exception while retrieving the content description",1308447306204
+error,log,,,"Core exception while retrieving the content description",1308447306205
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447308413
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447310515
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1308447310590
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.rename",1308447310590
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447315354
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447317523
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1308447317599
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.rename",1308447317599
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1308447322026
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447332343
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308447336063
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1308447336144

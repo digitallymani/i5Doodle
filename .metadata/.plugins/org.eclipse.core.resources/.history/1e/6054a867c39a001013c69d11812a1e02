@@ -1,0 +1,374 @@
+var layerspopup,openpopup,savepopup;
+function fnFileNew_Click(){
+	
+	window.THISi5APP.fnClose();
+	//document.location.reload(true);	
+
+}
+function fnFileOpen_Click(){
+	if(openpopup)
+		return;
+	
+	var openpopupjson={
+			 "id":"openpopup",
+			 "title":"Open",
+			 "type":"i5Popup",
+			 "style":"CHROME",
+			 "left":"250px",
+			 "top":"100px",
+			 "width":"330px",
+			 "height":"100px",
+			 "draggable":true,
+			 "closebutton":true,
+			 "bordercolor":"grey",
+			 "borderwidth":2,
+			 "borderstyle":"solid",
+			 "background":"#ffffff",
+			 "zindex":400,
+			 "parent":"doodlewindow",
+			 "onclosepopup":"fnCloseOpenPopup",
+
+		};
+	var openpopupstatusbarjson={
+			 "id":"openpopupstatusbar",
+			 "type":"i5Background",
+			 "behavior":"SHAPE",
+			 "left":"0px",
+			 "top":"75px",
+			 "width":"330px",
+			 "height":"25px",
+			 "draggable":false,
+			 "cssclassname":"chromestatusbar",
+			 "zindex":4,
+			 "parent":"openpopup",
+		};
+	
+	var openpopupscriptjson={
+			"id":"openpopupscript",
+			"type":"i5Script",
+			"filetype":"JAVASCRIPT",
+			"location":"SCRIPTS/i5OpenPopupScripts.js",
+	}
+	
+	var i5openfileinputjson={
+			 "id":"i5openfileinput",
+			 "label":"Open:  ",
+			 "type":"i5FileInput",
+			 "zindex":400,
+			 "left":"20px",
+			 "top":"40px",
+			 "width":"300px",
+			 "style":"TRADITIONAL",
+			 "parent":"openpopup",
+			 "onchange":"fnOpenSelectedFile"
+		};
+
+	
+	openpopup=new i5Popup();
+	openpopup.fnInitFromJson(openpopupjson);
+	
+	openpopupstatusbar=new i5Background();
+	openpopupstatusbar.fnInitFromJson(openpopupstatusbarjson);
+	
+	openpopupscript=new i5Script();
+	openpopupscript.fnInitFromJson(openpopupscriptjson);
+	
+	i5openfileinput=new i5FileInput();
+	i5openfileinput.fnInitFromJson(i5openfileinputjson);
+
+	
+}
+
+
+function fnFill_Click(paramObject){
+	alert("This functionality is coming available soon! Until then, please test other functionality.");
+}
+
+function fnFileSave_Click(paramObject){
+
+	//var persistString=window.THISi5APPUIOBJECTS.fnPersistToJson();
+	
+	var persistString=window.THISi5APPUIOBJECTS.fnPersistToJson();
+	doodlewindow=fnGetObject("doodlewindow");
+	var ajax = new XMLHttpRequest();
+	ajax.open("POST",'savei5d.php',false);
+	ajax.onreadystatechange = function(){
+		 if (ajax.readyState == 4) {
+			 fnSaveUpdate(ajax.responseText);
+	      }
+	}
+	
+	ajax.setRequestHeader("Content-Type","text/xml");
+    ajax.send(persistString);  
+	
+}
+
+
+function fnSaveUpdate(paramResponseText){
+	
+	alert(paramResponseText);
+	window.open(paramResponseText);
+	
+	if(savepopup)
+		return;
+	
+	var savepopupjson={
+			 "id":"savepopup",
+			 "title":"Save",
+			 "type":"i5Popup",
+			 "style":"CHROME",
+			 "left":"250px",
+			 "top":"100px",
+			 "width":"330px",
+			 "height":"100px",
+			 "draggable":true,
+			 "closebutton":true,
+			 "bordercolor":"grey",
+			 "borderwidth":2,
+			 "borderstyle":"solid",
+			 "background":"#ffffff",
+			 "zindex":400,
+			 "parent":"doodlewindow",
+			 "onclosepopup":"fnCloseSavePopup",
+
+		};
+	var savepopupstatusbarjson={
+			 "id":"savepopupstatusbar",
+			 "type":"i5Background",
+			 "behavior":"SHAPE",
+			 "left":"0px",
+			 "top":"75px",
+			 "width":"330px",
+			 "height":"25px",
+			 "draggable":false,
+			 "cssclassname":"chromestatusbar",
+			 "zindex":4,
+			 "parent":"savepopup",
+		};
+	
+	var savepopupscriptjson={
+			"id":"savepopupscript",
+			"type":"i5Script",
+			"filetype":"JAVASCRIPT",
+			"location":"SCRIPTS/i5SavePopupScripts.js",
+	}
+	
+	
+	savepopup=new i5Popup();
+	savepopup.fnInitFromJson(savepopupjson);
+	
+	savepopupstatusbar=new i5Background();
+	savepopupstatusbar.fnInitFromJson(savepopupstatusbarjson);
+	
+	savepopupscript=new i5Script();
+	savepopupscript.fnInitFromJson(savepopupscriptjson);
+	
+
+}
+
+
+function fnPublishToFacebook_Click(paramObject){
+	
+	var strDataURI = window.SELECTEDOBJECT.originalcanvastag.toDataURL("image/jpg");  
+	
+	//var canvasData = testCanvas.toDataURL("image/png");
+	var ajax = new XMLHttpRequest();
+	ajax.open("POST",'save.php',false);
+	ajax.onreadystatechange = function(){
+		 if (ajax.readyState == 4) {
+			// alert(ajax.responseText);
+			 fnSavingImageUpdate(ajax.responseText);
+	      }
+	}
+	//fnSavingImageUpdate;
+	ajax.setRequestHeader('Content-Type', 'application/upload');
+	ajax.send(strDataURI);  
+
+}
+
+function fnSavingImageUpdate(paramFileName){
+
+	
+	FB.ui(  {
+	     method: 'feed',
+	     name: 'i5Doodle',
+	     link:  'http://www.bookreadershub.com/' + paramFileName,
+	     picture: 'http://www.bookreadershub.com/' + paramFileName,
+	     caption: 'my i5Doodle!',
+	     description: 'This is a trial doodle.',
+	     message: 'i5Doodle Rocks!'
+	   },
+	   function(response) {
+	     if (response && response.post_id) {
+	       alert('Post was published.');
+	     } else {
+	       alert('Post was not published.');
+	     }
+	   });
+}
+
+function fnViewDrawingSurfaces_Click(){
+	
+	if(layerspopup)
+		return;
+	
+	var layerspopupjson={
+			 "id":"layerspopup",
+			 "title":"Layers",
+			 "type":"i5Popup",
+			 "style":"CHROME",
+			 "left":"530px",
+			 "top":"5px",
+			 "width":"170px",
+			 "height":"400px",
+			 "draggable":true,
+			 "closebutton":true,
+			 "bordercolor":"grey",
+			 "borderwidth":2,
+			 "borderstyle":"solid",
+			 "background":"#ffffff",
+			 "zindex":400,
+			 "parent":"doodlewindow",
+
+		};
+	var drawingsurfacepopupscriptjson={
+			"id":"drawingpopupscript",
+			"type":"i5Script",
+			"filetype":"JAVASCRIPT",
+			"location":"SCRIPTS/i5DrawingSurfacePopupScripts.js",
+	}
+
+		var layerspopupstatusbarjson={
+			 "id":"layerspopupstatus",
+			 "type":"i5Background",
+			 "behavior":"SHAPE",
+			 "left":"0px",
+			 "top":"375px",
+			 "width":"170px",
+			 "height":"25px",
+			 "draggable":false,
+			 "cssclassname":"chromestatusbar",
+			 "zindex":4,
+			 "parent":"layerspopup",
+		};
+	
+	var addlayerbuttonjson={
+			 "id":"addlayerbutton",
+			 "label":"ADD",
+			 "type":"i5Button",
+			 "size":"mini",
+			 "style":"SHAPE",
+			 "color":"grey",
+			 "zindex":400,
+			 "left":"10px",
+			 "top":"380px",
+			 "height":"10px",
+			 "parent":"layerspopup",
+			 "touchend":"fnAddLayers"
+		};
+	var deletelayerbuttonjson={
+			 "id":"deletelayerbutton",
+			 "label":"DEL",
+			 "type":"i5Button",
+			 "size":"mini",
+			 "style":"SHAPE",
+			 "color":"grey",
+			 "zindex":400,
+			 "left":"50px",
+			 "top":"380px",
+			 "height":"10px",
+			 "parent":"layerspopup",
+			 "touchend":"fnDeleteLayers"
+		};
+	var uplayerbuttonjson={
+			 "id":"uplayerbutton",
+			 "label":"UP",
+			 "type":"i5Button",
+			 "size":"mini",
+			 "style":"SHAPE",
+			 "color":"grey",
+			 "zindex":400,
+			 "left":"90px",
+			 "top":"380px",
+			 "height":"10px",
+			 "parent":"layerspopup",
+			 "touchend":"fnUpLayer"
+		};
+	
+	var downlayerbuttonjson={
+			 "id":"downlayerbutton",
+			 "label":"DOWN",
+			 "type":"i5Button",
+			 "size":"mini",
+			 "style":"SHAPE",
+			 "color":"grey",
+			 "zindex":400,
+			 "left":"125px",
+			 "top":"380px",
+			 "height":"10px",
+			 "parent":"layerspopup",
+			 "touchend":"fnDownLayer"
+		};
+	
+	
+	var tableviewitemjson={
+			 "id":"tableviewitems",
+			 "type":"i5TableView",
+			 "style":"TEXT",
+			 "color":"grey",
+			 "left":"2px",
+			 "top":"26px",
+			 "width":"380px",
+			 "height":"365px",
+			 "allowresize":true,
+			 "parent":"layerspopup",
+			 "touchend":"fnDownLayer"
+		};
+	
+	
+	
+	layerspopup=new i5Popup();
+	layerspopup.fnInitFromJson(layerspopupjson);
+	
+	drawingsurfacepopupscript=new i5Script();
+	drawingsurfacepopupscript.fnInitFromJson(drawingsurfacepopupscriptjson);
+	
+	layerspopupstatusbar=new i5Background();
+	layerspopupstatusbar.fnInitFromJson(layerspopupstatusbarjson);
+
+	
+	addlayerbutton=new i5Button();
+	addlayerbutton.fnInitFromJson(addlayerbuttonjson);
+	
+	deletelayerbutton=new i5Button();
+	deletelayerbutton.fnInitFromJson(deletelayerbuttonjson);
+	
+	uplayerbutton=new i5Button();
+	uplayerbutton.fnInitFromJson(uplayerbuttonjson);
+	
+	downlayerbutton=new i5Button();
+	downlayerbutton.fnInitFromJson(downlayerbuttonjson);
+	
+	window.layertableview=new i5TableView();
+	window.layertableview.fnInitFromJson(tableviewitemjson);		
+	
+	for(key in window.ARRAYOFDRAWINGSURFACES){
+		
+		var paramtypejson={
+				"id":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"group":"drawingsurfaces",
+				"type": "i5RadioButton",
+				"label":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"style":"TRADITIONAL",
+				"zindex":400,
+				"value":window.ARRAYOFDRAWINGSURFACES[key].id,
+				"touchend":"fnSelectDrawingSurface"
+		};
+		
+		
+		window.layertableview.fnCreateItem(paramtypejson);
+
+	}
+
+}
+

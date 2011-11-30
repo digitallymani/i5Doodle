@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083779688
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083780399
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083796214
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083799123
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083801989
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083868214
+error,log,,,"Unhandled event loop exception",1306083873692
+error,log,,,"Unhandled event loop exception",1306083873708
+error,log,,,"Unhandled event loop exception",1306083874217
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1306083874589
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083874902
+error,log,,,"Unhandled event loop exception",1306083874985
+error,log,,,"Unhandled event loop exception",1306083875067
+error,log,,,"Unhandled event loop exception",1306083875069
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1306083876424
+error,log,,,"Unhandled event loop exception",1306083876477
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1306083878234
+error,log,,,"Unhandled event loop exception",1306083878249
+error,log,,,"Unhandled event loop exception",1306083878804
+error,log,,,"Unhandled event loop exception",1306083878815
+error,log,,,"Unhandled event loop exception",1306083878849
+error,log,,,"Unhandled event loop exception",1306083878993
+error,log,,,"Unhandled event loop exception",1306083878993
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306083879232
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1306083879232

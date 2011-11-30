@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="48" version="2.0">
+<workbenchAdvisor/>
+<window height="820" maximized="true" width="1440" x="97" y="22">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="70" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.amazonaws.eclipse.toolbar" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Java EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5App.js" partName="i5App.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/i5LIB/i5App.js" title="i5App.js" tooltip="i5Doodle/i5LIB/i5App.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/i5LIB/i5App.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3606" selectionTopPixel="1872"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5NumberSpinner.js" partName="i5NumberSpinner.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/i5LIB/i5NumberSpinner.js" title="i5NumberSpinner.js" tooltip="i5Doodle/i5LIB/i5NumberSpinner.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/i5LIB/i5NumberSpinner.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1862" selectionTopPixel="637"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5Range.js" partName="i5Range.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/i5LIB/i5Range.js" title="i5Range.js" tooltip="i5Doodle/i5LIB/i5Range.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/i5LIB/i5Range.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="471" selectionTopPixel="85"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5Popup.js" partName="i5Popup.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/i5LIB/i5Popup.js" title="i5Popup.js" tooltip="i5Doodle/i5LIB/i5Popup.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/i5LIB/i5Popup.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7264" selectionTopPixel="3837"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5MenuHandlerScripts.js" partName="i5MenuHandlerScripts.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/MENU/i5MenuHandlerScripts.js" title="i5MenuHandlerScripts.js" tooltip="i5Doodle/MENU/i5MenuHandlerScripts.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/MENU/i5MenuHandlerScripts.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3773" selectionTopPixel="2025"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5Utils.js" partName="i5Utils.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/i5LIB/i5Utils.js" title="i5Utils.js" tooltip="i5Doodle/i5LIB/i5Utils.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/i5LIB/i5Utils.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="87" selectionOffset="5312" selectionTopPixel="2847"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5DrawingSurface.js" partName="i5DrawingSurface.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/i5LIB/i5DrawingSurface.js" title="i5DrawingSurface.js" tooltip="i5Doodle/i5LIB/i5DrawingSurface.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/i5LIB/i5DrawingSurface.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="13354" selectionTopPixel="7212"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5UIObject.js" partName="i5UIObject.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/i5LIB/i5UIObject.js" title="i5UIObject.js" tooltip="i5Doodle/i5LIB/i5UIObject.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/i5LIB/i5UIObject.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="4165" selectionTopPixel="3047"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5DrawingSurfacePopupScripts.js" partName="i5DrawingSurfacePopupScripts.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/SCRIPTS/i5DrawingSurfacePopupScripts.js" title="i5DrawingSurfacePopupScripts.js" tooltip="i5Doodle/SCRIPTS/i5DrawingSurfacePopupScripts.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/SCRIPTS/i5DrawingSurfacePopupScripts.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5053" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" partName="index.html" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/index.html" title="index.html" tooltip="i5Doodle/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="446" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5OpenPopupScripts.js" partName="i5OpenPopupScripts.js" path="/Users/manigandan_g/Sites/i5Doodle/i5Doodle/SCRIPTS/i5OpenPopupScripts.js" title="i5OpenPopupScripts.js" tooltip="i5Doodle/SCRIPTS/i5OpenPopupScripts.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/i5Doodle/SCRIPTS/i5OpenPopupScripts.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="473" selectionOffset="2205" selectionTopPixel="924"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="1" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<columnWidths org.eclipse.ui.ide.allSeverityField="0" org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="com.amazonaws.eclipse.sdk.newJavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.amazonaws.eclipse.ec2.perspective"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a450bb" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3303009" ratioLeft="472" ratioRight="957" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.69947505" ratioLeft="533" ratioRight="229" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/i5Doodle/SCRIPTS/i5DrawingSurfacePopupScripts.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/i5Doodle/MENU/i5MenuHandlerScripts.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/i5Doodle/i5LIB/i5DrawingSurface.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/i5Doodle/i5LIB/i5Popup.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/i5Doodle/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/i5Doodle/SCRIPTS/i5OpenPopupScripts.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/i5Doodle/i5uiobjectsmeta.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/i5Doodle/i5LIB/i5UIObject.js"/>
+</editors>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="917" y="39"/>
+</item>
+<item historyLabel="i5DrawingSurfacePopupScripts.js" index="0">
+<position info="not_deleted" x="5053" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="917" y="39"/>
+</item>
+<item historyLabel="i5Popup.js" index="3">
+<position info="not_deleted" x="7264" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="14874" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="3011" y="59"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="14874" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="14802" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="14813" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="11444" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="3011" y="59"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="11444" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4425" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="3011" y="59"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13499" y="18"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4824" y="0"/>
+</item>
+<item historyLabel="i5OpenPopupScripts.js" index="5">
+<position info="not_deleted" x="2205" y="473"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13499" y="18"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4541" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13390" y="100"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4203" y="85"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13321" y="171"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4342" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13389" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4342" y="0"/>
+</item>
+<item historyLabel="i5uiobjectsmeta.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13390" y="65"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4963" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13354" y="17"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4858" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13354" y="17"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4858" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4536" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13354" y="17"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4459" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13354" y="17"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4529" y="0"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13354" y="17"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="6146" y="0"/>
+</item>
+<item historyLabel="i5UIObject.js" index="7">
+<position info="not_deleted" x="4125" y="54"/>
+</item>
+<item historyLabel="i5DrawingSurface.js" index="2">
+<position info="not_deleted" x="13354" y="17"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="6146" y="0"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4254" y="33"/>
+</item>
+<item historyLabel="i5UIObject.js" index="7">
+<position info="not_deleted" x="4165" y="11"/>
+</item>
+<item historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="4254" y="33"/>
+</item>
+<item active="true" historyLabel="i5MenuHandlerScripts.js" index="1">
+<position info="not_deleted" x="3773" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="{B0533F01-AA75-BC96-165A-DBC168FCAA1B}.jpg" tooltip="i5Doodle/i5DOODLES/{B0533F01-AA75-BC96-165A-DBC168FCAA1B}.jpg">
+<persistable path="/i5Doodle/i5DOODLES/{B0533F01-AA75-BC96-165A-DBC168FCAA1B}.jpg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="{8DE7635C-B7DC-6555-B829-581D54FE5553}.jpg" tooltip="i5Doodle/i5DOODLES/{8DE7635C-B7DC-6555-B829-581D54FE5553}.jpg">
+<persistable path="/i5Doodle/i5DOODLES/{8DE7635C-B7DC-6555-B829-581D54FE5553}.jpg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="{68C4A318-A0D4-7C33-DD93-4E7B0D8B8FCD}.jpg" tooltip="i5Doodle/i5DOODLES/{68C4A318-A0D4-7C33-DD93-4E7B0D8B8FCD}.jpg">
+<persistable path="/i5Doodle/i5DOODLES/{68C4A318-A0D4-7C33-DD93-4E7B0D8B8FCD}.jpg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="{3B4A681D-85A5-0BBF-C061-183D30399683}.jpg" tooltip="i5Doodle/i5DOODLES/{3B4A681D-85A5-0BBF-C061-183D30399683}.jpg">
+<persistable path="/i5Doodle/i5DOODLES/{3B4A681D-85A5-0BBF-C061-183D30399683}.jpg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5uiobjectsmeta.js" tooltip="i5Doodle/i5uiobjectsmeta.js">
+<persistable path="/i5Doodle/i5uiobjectsmeta.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5OpenPopupScripts.js" tooltip="i5Doodle/SCRIPTS/i5OpenPopupScripts.js">
+<persistable path="/i5Doodle/SCRIPTS/i5OpenPopupScripts.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="i5Doodle/index.html">
+<persistable path="/i5Doodle/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5DrawingSurfacePopupScripts.js" tooltip="i5Doodle/SCRIPTS/i5DrawingSurfacePopupScripts.js">
+<persistable path="/i5Doodle/SCRIPTS/i5DrawingSurfacePopupScripts.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5UIObject.js" tooltip="i5Doodle/i5LIB/i5UIObject.js">
+<persistable path="/i5Doodle/i5LIB/i5UIObject.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5DrawingSurface.js" tooltip="i5Doodle/i5LIB/i5DrawingSurface.js">
+<persistable path="/i5Doodle/i5LIB/i5DrawingSurface.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5Utils.js" tooltip="i5Doodle/i5LIB/i5Utils.js">
+<persistable path="/i5Doodle/i5LIB/i5Utils.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5MenuHandlerScripts.js" tooltip="i5Doodle/MENU/i5MenuHandlerScripts.js">
+<persistable path="/i5Doodle/MENU/i5MenuHandlerScripts.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5Popup.js" tooltip="i5Doodle/i5LIB/i5Popup.js">
+<persistable path="/i5Doodle/i5LIB/i5Popup.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5Range.js" tooltip="i5Doodle/i5LIB/i5Range.js">
+<persistable path="/i5Doodle/i5LIB/i5Range.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="i5NumberSpinner.js" tooltip="i5Doodle/i5LIB/i5NumberSpinner.js">
+<persistable path="/i5Doodle/i5LIB/i5NumberSpinner.js"/>
+</file>
+</mruList>
+</workbench>

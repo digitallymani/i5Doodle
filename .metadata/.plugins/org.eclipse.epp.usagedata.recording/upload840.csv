@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308518147368
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518149020
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518150378
+opened,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308518150481
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308518150537
+started,bundle,org.eclipse.mylyn.java.tasks,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.tasks",1308518169674
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1308518169765
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1308518171241
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308518172267
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308518177952
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518178949
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518184733
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1308518193161
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518193666
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1308518240854
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1308518243328
+error,log,,,"Core exception while retrieving the content description",1308518248933
+error,log,,,"Core exception while retrieving the content description",1308518248934
+error,log,,,"Core exception while retrieving the content description",1308518248935
+error,log,,,"Core exception while retrieving the content description",1308518248936
+error,log,,,"Core exception while retrieving the content description",1308518248936
+error,log,,,"Core exception while retrieving the content description",1308518248937
+error,log,,,"Core exception while retrieving the content description",1308518248938
+started,bundle,org.eclipse.compare,3.5.2.r35x_20100113-0800,"org.eclipse.compare",1308518249172
+error,log,,,"Core exception while retrieving the content description",1308518252364

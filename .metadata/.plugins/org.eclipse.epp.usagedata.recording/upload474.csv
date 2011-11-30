@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.amazonaws.eclipse.elasticbeanstalk,1.0.0.v201106011817,"com.amazonaws.eclipse.elasticbeanstalk",1307289756622
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307289758768
+started,bundle,org.eclipse.ui.browser,3.2.301.v20091215_35x,"org.eclipse.ui.browser",1307289765249
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307289813660
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1307289825105
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307289830361
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307289843842
+error,log,,,"Unable to list key pairs: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307289845285
+error,log,,,"Unable to refresh security groups: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307289845286
+error,log,,,"Unable to query list of AMIs: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307289845287
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307289849136
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.InstanceView",1307289850525
+activated,perspective,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.perspective",1307289850553
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307289850604
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307289859496
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307289910866
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307289919209
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307289934896
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307289971160
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290030778
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290091274
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290151080
+error,log,,,"Unable to list instances: You are not subscribed to this service. Please go to http://aws.amazon.com to subscribe.",1307290211085
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307290211446
+opened,view,com.amazonaws.eclipse.ec2,1.1.0.v201101181646,"com.amazonaws.eclipse.ec2.ui.views.AmiBrowserView",1307290221419

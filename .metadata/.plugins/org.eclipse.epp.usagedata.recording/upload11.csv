@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475504338
+error,log,,,"Importing Java Enterprise Edition artifacts ...",1304475523733
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475535307
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1304475535322
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475537766
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475540348
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475540398
+error,log,,,"Importing Java Enterprise Edition artifacts ...",1304475545251
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475549149
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475550940
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475554406
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475554447
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1304475566855
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475566995
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.103.v200905151848,"org.eclipse.wst.ws.service.policy",1304475569618
+started,bundle,org.eclipse.wst.command.env,1.0.408.v200903110045,"org.eclipse.wst.command.env",1304475569631
+started,bundle,org.eclipse.wst.ws,1.1.103.v200903111822,"org.eclipse.wst.ws",1304475569631
+started,bundle,org.eclipse.compare,3.5.2.r35x_20100113-0800,"org.eclipse.compare",1304475569963
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1304475572323
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475574944
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475587202
+closed,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1304475587345
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1304475587753
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.405.v200901261650,"org.eclipse.jst.ws.axis.consumption.ui",1304475587754
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.306.v200810082309,"org.eclipse.jst.ws.axis.consumption.core",1304475587754

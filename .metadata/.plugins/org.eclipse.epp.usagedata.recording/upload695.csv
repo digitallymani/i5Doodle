@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307911781163
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307911800679
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307911812851
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307911815252
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307912110326
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1307912114224
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307912117337
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307912122295
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307912122340
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307912122439
+error,log,,,"Problems encountered during text search.",1307912122482
+executed,command,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.openSearchDialog",1307912122517
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307912123025
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307912124778
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307912128593
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307912139964
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307912146759
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307912147127
+activated,view,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search.ui.views.SearchView",1307912160354
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.201.v2010012803,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1307912162048
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307912174063
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307912181927
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1307912197795
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307912305982
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1307912561896
